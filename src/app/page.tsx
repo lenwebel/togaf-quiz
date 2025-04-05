@@ -176,12 +176,11 @@ export default function QuizPage() {
       </Layout>
     );
   }
-
   if (showResult) {
     return (
       <Layout className={styles.layout}>
         <Header className={styles.header}>
-          <Title level={2} style={{ color: 'white', margin: 0 }}>TOGAF Quiz Results</Title>
+          <Title level={2} style={{ color: 'white', margin: 0, textAlign: 'center' }}>TOGAF Quiz Results</Title>
         </Header>
         <Content className={styles.content}>
           <Result
@@ -189,24 +188,25 @@ export default function QuizPage() {
             title={`Your score: ${score} / ${questions.length}`}
             subTitle={`You got ${Math.round((score / questions.length) * 100)}% of the questions correct`}
             extra={[
-              <Button key="restart" type="primary" onClick={restartQuiz}>
+              <Button key="restart" type="primary" onClick={restartQuiz} style={{ width: '100%' }}>
                 Restart Quiz
               </Button>,
               <Link href="/" key="home">
-                <Button icon={<HomeOutlined />}>Return Home</Button>
+                <Button icon={<HomeOutlined />} style={{ width: '100%', marginTop: '8px' }}>Return Home</Button>
               </Link>
             ]}
           />
           
           {incorrectAnswers.length > 0 && (
             <Card className={styles.card} style={{ marginTop: '20px' }}>
-              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '16px' }}>
-                <Title level={4} style={{ margin: 0 }}>
+              <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'stretch', marginBottom: '16px' }}>
+                <Title level={4} style={{ margin: 0, textAlign: 'center' }}>
                   Incorrect Answers ({incorrectAnswers.length})
                 </Title>
                 <Button 
                   type="primary" 
                   onClick={() => setShowIncorrectAnswers(!showIncorrectAnswers)}
+                  style={{ marginTop: '8px', width: '100%' }}
                 >
                   {showIncorrectAnswers ? 'Hide Details' : 'Show Details'}
                 </Button>

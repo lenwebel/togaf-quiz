@@ -20,8 +20,8 @@ const firebaseConfig = {
 };
 
 // Initialize Firebase
-const app = initializeApp(firebaseConfig);
-getAnalytics(app);
+initializeApp(firebaseConfig);
+
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
