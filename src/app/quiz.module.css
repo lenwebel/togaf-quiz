@@ -1,0 +1,53 @@
+.layout {
+  min-height: 100vh;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  padding: 0 24px;
+}
+
+.content {
+  padding: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 100%;
+  max-width: 800px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.progress {
+  margin-bottom: 16px;
+}
+
+.radioGroup {
+  margin: 24px 0;
+  width: 100%;
+}
+
+.radioOption {
+  padding: 12px;
+  border-radius: 6px;
+  margin-bottom: 8px;
+  width: 100%;
+  transition: all 0.3s;
+}
+
+.radioOption:hover {
+  background-color: #f0f0f0;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 24px;
+}
+
+.footer {
+  text-align: center;
+}

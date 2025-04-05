@@ -1,0 +1,476 @@
+[
+    {
+      "id": 1,
+      "question": "Which of the following is the primary goal of TOGAF?",
+      "options": [
+        "To provide a detailed technical architecture for a specific industry.",
+        "To ensure IT projects are delivered on time and within budget.",
+        "To provide a framework and method for developing and managing enterprise architectures.",
+        "To standardize all IT infrastructure across an organization."
+      ],
+      "answer": "To provide a framework and method for developing and managing enterprise architectures.",
+      "type": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "question": "The TOGAF Architecture Development Method (ADM) is a linear, waterfall approach to architecture development.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": "False",
+      "type": "true-false"
+    },
+    {
+      "id": 3,
+      "question": "In which phase of the ADM is the Architecture Vision typically created?",
+      "options": [
+        "Phase A: Architecture Vision",
+        "Phase B: Business Architecture",
+        "Phase C: Information Systems Architectures",
+        "Phase D: Technology Architecture"
+      ],
+      "answer": "Phase A: Architecture Vision",
+      "type": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "question": "Which of the following statements best describes the TOGAF Enterprise Continuum?",
+      "options": [
+        "A tool for storing all enterprise architecture artifacts",
+        "A taxonomy for organizing architecture assets, models, and solutions",
+        "A process for ensuring continuity between architecture versions",
+        "A technique for managing business continuity planning"
+      ],
+      "answer": "A taxonomy for organizing architecture assets, models, and solutions",
+      "type": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "question": "Which TOGAF component provides a storage area for all architecture artifacts?",
+      "options": [
+        "Architecture Content Framework",
+        "Architecture Repository",
+        "Enterprise Continuum",
+        "Architecture Building Blocks"
+      ],
+      "answer": "Architecture Repository",
+      "type": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "question": "In TOGAF, which of the following best describes Architecture Building Blocks (ABBs)?",
+      "options": [
+        "Reusable components of business capability",
+        "Implementation-specific components of a system",
+        "Reusable architecture components that define required capability",
+        "Detailed technical specifications for IT systems"
+      ],
+      "answer": "Reusable architecture components that define required capability",
+      "type": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "question": "The Architecture Content Framework in TOGAF includes all of the following EXCEPT:",
+      "options": [
+        "Deliverables",
+        "Artifacts",
+        "Building blocks",
+        "Project implementation plans"
+      ],
+      "answer": "Project implementation plans",
+      "type": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "question": "TOGAF's Architecture Development Method (ADM) is designed to be:",
+      "options": [
+        "A rigid, sequential development process",
+        "Iterative over the whole process and between phases",
+        "Used only for initial architecture development, not for changes",
+        "Applied differently for each architecture domain"
+      ],
+      "answer": "Iterative over the whole process and between phases",
+      "type": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "question": "Which phase of the TOGAF ADM is concerned with ensuring that the implementation projects conform to the target architecture?",
+      "options": [
+        "Phase F: Migration Planning",
+        "Phase G: Implementation Governance",
+        "Phase E: Opportunities and Solutions",
+        "Phase H: Architecture Change Management"
+      ],
+      "answer": "Phase G: Implementation Governance",
+      "type": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "question": "Which TOGAF component is primarily used to determine the completeness of an architecture?",
+      "options": [
+        "Architecture Capability Framework",
+        "Architecture Content Framework",
+        "Architecture Compliance",
+        "Architecture Vision"
+      ],
+      "answer": "Architecture Content Framework",
+      "type": "multiple-choice"
+    },
+    {
+      "id": 11,
+      "question": "The concept of 'bounded context' in TOGAF refers to:",
+      "options": [
+        "The limits of authority of the architecture governance board",
+        "A specific business domain to which an architecture applies",
+        "The scope of a particular stakeholder's concerns",
+        "The technical limitations of a system"
+      ],
+      "answer": "A specific business domain to which an architecture applies",
+      "type": "multiple-choice"
+    },
+    {
+      "id": 12,
+      "question": "Solution Building Blocks (SBBs) differ from Architecture Building Blocks (ABBs) in that SBBs:",
+      "options": [
+        "Are abstract and conceptual rather than concrete",
+        "Define what needs to be done rather than how",
+        "Are specific implementation components of a system",
+        "Apply only to business architecture, not technical"
+      ],
+      "answer": "Are specific implementation components of a system",
+      "type": "multiple-choice"
+    },
+    {
+      "id": 13,
+      "question": "The Architecture Repository in TOGAF contains all of the following EXCEPT:",
+      "options": [
+        "Architecture Metamodel",
+        "Architecture Capability",
+        "Architecture Landscape",
+        "Project Portfolio"
+      ],
+      "answer": "Project Portfolio",
+      "type": "multiple-choice"
+    },
+    {
+      "id": 14,
+      "question": "In TOGAF, risk management is primarily addressed in:",
+      "options": [
+        "Preliminary Phase",
+        "Phase A: Architecture Vision",
+        "Phase F: Migration Planning",
+        "Requirements Management"
+      ],
+      "answer": "Phase F: Migration Planning",
+      "type": "multiple-choice"
+    },
+    {
+      "id": 15,
+      "question": "Gap analysis is performed in which TOGAF ADM phases?",
+      "options": [
+        "Only in Phase A: Architecture Vision",
+        "In Phases B, C, and D for each architecture domain",
+        "Only in Phase E: Opportunities and Solutions",
+        "Only in Phase F: Migration Planning"
+      ],
+      "answer": "In Phases B, C, and D for each architecture domain",
+      "type": "multiple-choice"
+    },
+    {
+      "id": 16,
+      "question": "The TOGAF Technical Reference Model (TRM) is:",
+      "options": [
+        "A mandatory component of any TOGAF architecture",
+        "A foundation architecture in the Enterprise Continuum",
+        "A detailed technical specification for IT procurement",
+        "A specific implementation of the Technology Architecture"
+      ],
+      "answer": "A foundation architecture in the Enterprise Continuum",
+      "type": "multiple-choice"
+    },
+    {
+      "id": 17,
+      "question": "TOGAF's Architecture Capability Framework primarily focuses on:",
+      "options": [
+        "IT operational capabilities",
+        "Establishing an architecture function in an organization",
+        "Business process reengineering capabilities",
+        "Software development methodologies"
+      ],
+      "answer": "Establishing an architecture function in an organization",
+      "type": "multiple-choice"
+    },
+    {
+      "id": 18,
+      "question": "Stakeholder management is an important aspect of TOGAF. Stakeholders' requirements are primarily captured in:",
+      "options": [
+        "Phase A: Architecture Vision",
+        "Requirements Management",
+        "Phase B: Business Architecture",
+        "Preliminary Phase"
+      ],
+      "answer": "Requirements Management",
+      "type": "multiple-choice"
+    },
+    {
+      "id": 19,
+      "question": "Which of the following is NOT one of the ADM phases in TOGAF?",
+      "options": [
+        "Preliminary Phase",
+        "Requirements Management Phase",
+        "Architecture Definition Phase",
+        "Phase H: Architecture Change Management"
+      ],
+      "answer": "Architecture Definition Phase",
+      "type": "multiple-choice"
+    },
+    {
+      "id": 20,
+      "question": "The Architecture Partitioning concept in TOGAF allows for:",
+      "options": [
+        "Separating IT systems by security level",
+        "Breaking down complex architecture models into manageable pieces",
+        "Physically distributing architecture components",
+        "Dividing the enterprise by business function"
+      ],
+      "answer": "Breaking down complex architecture models into manageable pieces",
+      "type": "multiple-choice"
+    },
+    {
+      "id": 21,
+      "question": "In the TOGAF framework, Information Systems Architecture is composed of:",
+      "options": [
+        "Business and Technology Architectures",
+        "Application and Data Architectures",
+        "Hardware and Software Architectures",
+        "Network and Infrastructure Architectures"
+      ],
+      "answer": "Application and Data Architectures",
+      "type": "multiple-choice"
+    },
+    {
+      "id": 22,
+      "question": "Capability-based planning in TOGAF focuses on:",
+      "options": [
+        "IT capabilities only",
+        "Business capabilities first, then IT capabilities",
+        "Organizing change into discrete packages that deliver business value",
+        "Individual employee capabilities and skills"
+      ],
+      "answer": "Organizing change into discrete packages that deliver business value",
+      "type": "multiple-choice"
+    },
+    {
+      "id": 23,
+      "question": "The Architecture Board in TOGAF is responsible for:",
+      "options": [
+        "Only technical architecture decisions",
+        "Project management of architecture implementation",
+        "Governance of the architecture process",
+        "Day-to-day IT operations"
+      ],
+      "answer": "Governance of the architecture process",
+      "type": "multiple-choice"
+    },
+    {
+      "id": 24,
+      "question": "The TOGAF Architecture Content Framework is organized into three categories, which are:",
+      "options": [
+        "Deliverables, Artifacts, and Building Blocks",
+        "Inputs, Activities, and Outputs",
+        "Documents, Models, and Catalogs",
+        "Principles, Requirements, and Roadmaps"
+      ],
+      "answer": "Deliverables, Artifacts, and Building Blocks",
+      "type": "multiple-choice"
+    },
+    {
+      "id": 25,
+      "question": "The Architecture Governance in TOGAF applies to:",
+      "options": [
+        "Only technical implementation decision-making",
+        "The entire ADM process and the architecture landscape",
+        "Only the business architecture domain",
+        "Only to the design phases of architecture development"
+      ],
+      "answer": "The entire ADM process and the architecture landscape",
+      "type": "multiple-choice"
+    },
+    {
+      "id": 26,
+      "question": "Architecture Principles in TOGAF should have all of the following characteristics EXCEPT:",
+      "options": [
+        "Be rigid and unchangeable once established",
+        "Provide guidance for decision making",
+        "Be endorsed by senior management",
+        "Be limited in number"
+      ],
+      "answer": "Be rigid and unchangeable once established",
+      "type": "multiple-choice"
+    },
+    {
+      "id": 27,
+      "question": "The Preliminary Phase in TOGAF ADM focuses on:",
+      "options": [
+        "Developing detailed technology architecture",
+        "Creating the architecture vision for a specific project",
+        "Establishing the architecture capability and tailoring TOGAF",
+        "Completing a gap analysis of all architecture domains"
+      ],
+      "answer": "Establishing the architecture capability and tailoring TOGAF",
+      "type": "multiple-choice"
+    },
+    {
+      "id": 28,
+      "question": "The Business Scenario technique in TOGAF is primarily used to:",
+      "options": [
+        "Create detailed technology designs",
+        "Document as-is business processes",
+        "Identify and understand business requirements",
+        "Develop project implementation plans"
+      ],
+      "answer": "Identify and understand business requirements",
+      "type": "multiple-choice"
+    },
+    {
+      "id": 29,
+      "question": "The Architecture Continuum in TOGAF ranges from:",
+      "options": [
+        "Business Architecture to Technology Architecture",
+        "Foundation Architectures to Organization-Specific Architectures",
+        "Strategic Architecture to Tactical Architecture",
+        "Conceptual Architecture to Physical Architecture"
+      ],
+      "answer": "Foundation Architectures to Organization-Specific Architectures",
+      "type": "multiple-choice"
+    },
+    {
+      "id": 30,
+      "question": "Viewpoints in TOGAF are used to:",
+      "options": [
+        "Present financial perspectives of architecture",
+        "Show only management-level views of the enterprise",
+        "Address the concerns of specific stakeholders",
+        "Provide historical perspectives on architecture evolution"
+      ],
+      "answer": "Address the concerns of specific stakeholders",
+      "type": "multiple-choice"
+    },
+    {
+      "id": 31,
+      "question": "Migration Planning (Phase F) in TOGAF produces which of the following?",
+      "options": [
+        "Architecture Vision and Requirements specifications",
+        "Implementation and Migration Plan with a detailed Work Breakdown Structure",
+        "Business Architecture models and matrices",
+        "Solutions Landscape and Architecture Repository"
+      ],
+      "answer": "Implementation and Migration Plan with a detailed Work Breakdown Structure",
+      "type": "multiple-choice"
+    },
+    {
+      "id": 32,
+      "question": "Phase H: Architecture Change Management in TOGAF is primarily concerned with:",
+      "options": [
+        "Making ongoing changes to applications and infrastructure",
+        "Managing the architecture governance process",
+        "Establishing procedures for managing changes to the new architecture",
+        "Handling change requests during implementation phases"
+      ],
+      "answer": "Establishing procedures for managing changes to the new architecture",
+      "type": "multiple-choice"
+    },
+    {
+      "id": 33,
+      "question": "The TOGAF documentation states that the ADM should be adapted and tailored for use according to the specific needs of an organization.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": "True",
+      "type": "true-false"
+    },
+    {
+      "id": 34,
+      "question": "A key deliverable from Phase B: Business Architecture is:",
+      "options": [
+        "Technical Reference Model",
+        "Organization structure",
+        "Target Business Architecture",
+        "Implementation and Migration Plan"
+      ],
+      "answer": "Target Business Architecture",
+      "type": "multiple-choice"
+    },
+    {
+      "id": 35,
+      "question": "The Architecture Compliance review process in TOGAF is intended to:",
+      "options": [
+        "Replace formal project management reviews",
+        "Ensure that implementation projects conform to the established architecture",
+        "Focus solely on technical compliance with standards",
+        "Audit internal IT departments for security vulnerabilities"
+      ],
+      "answer": "Ensure that implementation projects conform to the established architecture",
+      "type": "multiple-choice"
+    },
+    {
+      "id": 36,
+      "question": "In TOGAF, architecture development contracts are established between:",
+      "options": [
+        "Vendors and the purchasing department",
+        "The architecture team and external consultants",
+        "The sponsors and the architecture team",
+        "Business units and the IT department"
+      ],
+      "answer": "The sponsors and the architecture team",
+      "type": "multiple-choice"
+    },
+    {
+      "id": 37,
+      "question": "The Architecture Development Method (ADM) is the core of TOGAF.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": "True",
+      "type": "true-false"
+    },
+    {
+      "id": 38,
+      "question": "Which of the following is NOT a valid consideration when tailoring the TOGAF ADM?",
+      "options": [
+        "Enterprise scope and size",
+        "Architecture maturity",
+        "Simplifying to bypass governance requirements",
+        "Available resources and competencies"
+      ],
+      "answer": "Simplifying to bypass governance requirements",
+      "type": "multiple-choice"
+    },
+    {
+      "id": 39,
+      "question": "Which TOGAF component provides guidance on establishing an architecture capability within an organization?",
+      "options": [
+        "The Enterprise Continuum",
+        "The Architecture Repository",
+        "The Architecture Capability Framework",
+        "The Content Metamodel"
+      ],
+      "answer": "The Architecture Capability Framework",
+      "type": "multiple-choice"
+    },
+    {
+      "id": 40,
+      "question": "The main difference between Architecture Building Blocks (ABBs) and Solution Building Blocks (SBBs) is that:",
+      "options": [
+        "ABBs are only used in business architecture while SBBs are for technology",
+        "ABBs describe capability requirements while SBBs define how to implement them",
+        "ABBs are vendor-specific while SBBs are vendor-neutral",
+        "ABBs are implemented in Phase E while SBBs are implemented in Phase G"
+      ],
+      "answer": "ABBs describe capability requirements while SBBs define how to implement them",
+      "type": "multiple-choice"
+    }
+]
