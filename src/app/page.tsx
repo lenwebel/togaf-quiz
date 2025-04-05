@@ -1,14 +1,15 @@
 'use client';
 
 import React, { useState, useEffect } from 'react';
-import { Card, Radio, Button, Typography, Space, Progress, Layout, Result, Collapse, Divider, InputNumber, Form, RadioChangeEvent } from 'antd';
-import { ArrowLeftOutlined, ArrowRightOutlined, HomeOutlined } from '@ant-design/icons';
+import { Card, Radio, Button, Typography, Space, Progress, Layout, Result, Collapse, Divider, InputNumber, Form, RadioChangeEvent, Select, Switch } from 'antd';
+import { ArrowLeftOutlined, ArrowRightOutlined, HomeOutlined, CheckCircleFilled, CloseCircleFilled } from '@ant-design/icons';
 import Link from 'next/link';
 import styles from './quiz.module.css';
 
 const { Title, Paragraph, Text } = Typography;
 const { Header, Content, Footer } = Layout;
 const { Panel } = Collapse;
+const { Option } = Select;
 
 interface Question {
   id: number;
@@ -16,7 +17,18 @@ interface Question {
   options: string[];
   answer: string;
   type: string;
+  scenario?: string;
   userAnswer?: string;
+}
+
+interface Exam {
+  name: string;
+  description: string;
+}
+
+interface VendorExams {
+  provider: string;
+  exams: Exam[];
 }
 
 export default function QuizPage() {
@@ -32,6 +44,15 @@ export default function QuizPage() {
   const [showIncorrectAnswers, setShowIncorrectAnswers] = useState(false);
   const [numQuestionsToAnswer, setNumQuestionsToAnswer] = useState<number>(10);
   const [quizStarted, setQuizStarted] = useState(false);
+  const [questionType, setQuestionType] = useState<string>('mixed');
+  const [showAnswersImmediately, setShowAnswersImmediately] = useState<boolean>(false);
+  const [answerSubmitted, setAnswerSubmitted] = useState<boolean>(false);
+  
+  // New state variables for vendor and exam selection
+  const [examList, setExamList] = useState<VendorExams[]>([]);
+  const [selectedVendor, setSelectedVendor] = useState<string>('');
+  const [selectedExam, setSelectedExam] = useState<string>('');
+  const [availableExams, setAvailableExams] = useState<Exam[]>([]);
 
   useEffect(() => {
     async function fetchQuestions() {
@@ -46,19 +67,73 @@ export default function QuizPage() {
       }
     }
 
+    async function fetchExamList() {
+      try {
+        const response = await fetch('/exam-list.json');
+        const data = await response.json();
+        setExamList(data);
+      } catch (error) {
+        console.error('Error fetching exam list:', error);
+      }
+    }
+
     fetchQuestions();
+    fetchExamList();
   }, []);
 
+  // Update available exams when vendor changes
+  useEffect(() => {
+    if (selectedVendor) {
+      const vendorData = examList.find(v => v.provider === selectedVendor);
+      if (vendorData) {
+        setAvailableExams(vendorData.exams);
+        setSelectedExam(''); // Reset exam selection when vendor changes
+      } else {
+        setAvailableExams([]);
+      }
+    } else {
+      setAvailableExams([]);
+    }
+  }, [selectedVendor, examList]);
+
   const startQuiz = () => {
+    // Filter questions based on selected type
+    let filteredQuestions = [...allQuestions];
+    if (questionType === 'regular') {
+      filteredQuestions = allQuestions.filter(q => q.type !== 'scenario');
+    } else if (questionType === 'scenario') {
+      filteredQuestions = allQuestions.filter(q => q.type === 'scenario');
+    }
+    
     // Randomize questions and select requested number
-    const shuffled = [...allQuestions].sort(() => 0.5 - Math.random());
+    const shuffled = [...filteredQuestions].sort(() => 0.5 - Math.random());
     const selectedQuestions = shuffled.slice(0, numQuestionsToAnswer);
     setQuestions(selectedQuestions);
     setQuizStarted(true);
   };
 
+  // Handle vendor selection change
+  const handleVendorChange = (value: string) => {
+    setSelectedVendor(value);
+  };
+
+  // Handle exam selection change
+  const handleExamChange = (value: string) => {
+    setSelectedExam(value);
+  };
+
   const handleOptionChange = (e: RadioChangeEvent) => {
     setSelectedOption(e.target.value);
+    
+    // Remove automatic submission when selecting an option
+    // Only set answerSubmitted to true when Check Answer button is clicked
+  };
+
+  // Add new function to handle checking answers
+  const handleCheckAnswer = () => {
+    if (selectedOption) {
+      setAnswerSubmitted(true);
+    }
   };
 
   const handleNext = () => {
@@ -86,6 +161,7 @@ export default function QuizPage() {
       if (currentQuestionIndex < questions.length - 1) {
         setCurrentQuestionIndex(prevIndex => prevIndex + 1);
         setSelectedOption(null);
+        setAnswerSubmitted(false); // Reset answer submission state for new question
       } else {
         setShowResult(true);
       }
@@ -141,19 +217,95 @@ export default function QuizPage() {
           <Card className={styles.card}>
             <Title level={3}>Quiz Setup</Title>
             <Paragraph>
-              Select how many questions you would like to answer.
-              (Maximum: {allQuestions.length})
+              Configure your quiz settings below.
             </Paragraph>
             
             <Form layout="vertical">
-              <Form.Item label="Number of Questions">
+              {/* Vendor Selection */}
+              <Form.Item label="Select Vendor">
+                <Select
+                  placeholder="Select a vendor"
+                  style={{ width: '100%' }}
+                  onChange={handleVendorChange}
+                  value={selectedVendor || undefined}
+                >
+                  {examList.map((vendor) => (
+                    <Option key={vendor.provider} value={vendor.provider}>
+                      {vendor.provider}
+                    </Option>
+                  ))}
+                </Select>
+              </Form.Item>
+              
+              {/* Exam Selection - only visible when vendor is selected */}
+              {selectedVendor && (
+                <Form.Item label="Select Exam">
+                  <Select
+                    placeholder="Select an exam"
+                    style={{ width: '100%' }}
+                    onChange={handleExamChange}
+                    value={selectedExam || undefined}
+                  >
+                    {availableExams.map((exam) => (
+                      <Option key={exam.name} value={exam.name}>
+                        {exam.name}
+                      </Option>
+                    ))}
+                  </Select>
+                  {selectedExam && (
+                    <div style={{ marginTop: '8px' }}>
+                      <Text type="secondary">
+                        {availableExams.find(e => e.name === selectedExam)?.description}
+                      </Text>
+                    </div>
+                  )}
+                </Form.Item>
+              )}
+
+              <Form.Item label="Question Type">
+                <Select 
+                  defaultValue="mixed"
+                  style={{ width: '100%' }}
+                  onChange={(value) => setQuestionType(value)}
+                >
+                  <Option value="mixed">Mixed (All Question Types)</Option>
+                  <Option value="regular">Regular Questions</Option>
+                  <Option value="scenario">Scenario-based Questions</Option>
+                </Select>
+              </Form.Item>
+              
+              <Form.Item 
+                label={`Number of Questions (Maximum: ${
+                  questionType === 'regular' 
+                    ? allQuestions.filter(q => q.type !== 'scenario').length 
+                    : questionType === 'scenario' 
+                      ? allQuestions.filter(q => q.type === 'scenario').length 
+                      : allQuestions.length
+                })`}
+              >
                 <InputNumber 
                   min={1} 
-                  max={allQuestions.length} 
+                  max={
+                    questionType === 'regular' 
+                      ? allQuestions.filter(q => q.type !== 'scenario').length 
+                      : questionType === 'scenario' 
+                        ? allQuestions.filter(q => q.type === 'scenario').length 
+                        : allQuestions.length
+                  } 
                   defaultValue={numQuestionsToAnswer}
                   onChange={handleQuestionNumberChange}
                   style={{ width: '100%' }}
                 />
+              </Form.Item>
+              
+              <Form.Item label="Show Answers Immediately">
+                <Switch 
+                  checked={showAnswersImmediately} 
+                  onChange={(checked) => setShowAnswersImmediately(checked)} 
+                />
+                <Text type="secondary" style={{ marginLeft: '10px' }}>
+                  Show correct/wrong feedback after each selection
+                </Text>
               </Form.Item>
               
               <Form.Item>
@@ -161,7 +313,12 @@ export default function QuizPage() {
                   type="primary" 
                   size="large" 
                   onClick={startQuiz}
-                  disabled={numQuestionsToAnswer <= 0 || numQuestionsToAnswer > allQuestions.length}
+                  disabled={
+                    numQuestionsToAnswer <= 0 || 
+                    (questionType === 'regular' && numQuestionsToAnswer > allQuestions.filter(q => q.type !== 'scenario').length) ||
+                    (questionType === 'scenario' && numQuestionsToAnswer > allQuestions.filter(q => q.type === 'scenario').length) ||
+                    (questionType === 'mixed' && numQuestionsToAnswer > allQuestions.length)
+                  }
                   style={{ width: '100%' }}
                 >
                   Start Quiz
@@ -272,6 +429,13 @@ export default function QuizPage() {
           />
           <Text type="secondary">Question {currentQuestionIndex + 1} of {questions.length}</Text>
           
+          {currentQuestion.scenario && (
+            <Card type="inner" style={{ marginBottom: '16px', backgroundColor: '#f5f5f5' }}>
+              <Title level={5} style={{ marginBottom: '8px' }}>Scenario:</Title>
+              <Paragraph>{currentQuestion.scenario}</Paragraph>
+            </Card>
+          )}
+          
           <Title level={4}>{currentQuestion.question}</Title>
           
           <Radio.Group 
@@ -281,12 +445,44 @@ export default function QuizPage() {
           >
             <Space direction="vertical" style={{ width: '100%' }}>
               {currentQuestion.options.map((option, index) => (
-                <Radio key={index} value={option} className={styles.radioOption}>
-                  {option}
-                </Radio>
+                <div key={index} className={styles.radioOption}>
+                  <Radio value={option}>
+                    {option}
+                    {showAnswersImmediately && answerSubmitted && (
+                      <>
+                        {option === currentQuestion.answer && (
+                          <CheckCircleFilled style={{ color: 'green', marginLeft: '8px' }} />
+                        )}
+                        {selectedOption === option && option !== currentQuestion.answer && (
+                          <CloseCircleFilled style={{ color: 'red', marginLeft: '8px' }} />
+                        )}
+                      </>
+                    )}
+                  </Radio>
+                </div>
               ))}
             </Space>
           </Radio.Group>
+
+          {showAnswersImmediately && answerSubmitted && selectedOption !== currentQuestion.answer && (
+            <div style={{ margin: '16px 0', padding: '10px', backgroundColor: '#f6ffed', border: '1px solid #b7eb8f', borderRadius: '4px' }}>
+              <Text strong style={{ color: 'green' }}>Correct answer: </Text>
+              <Text>{currentQuestion.answer}</Text>
+            </div>
+          )}
+
+          {/* Add Check Answer button when showAnswersImmediately is enabled */}
+          {showAnswersImmediately && !answerSubmitted && (
+            <div style={{ marginTop: '16px', textAlign: 'center' }}>
+              <Button
+                type="primary"
+                onClick={handleCheckAnswer}
+                disabled={!selectedOption}
+              >
+                Check Answer
+              </Button>
+            </div>
+          )}
 
           <div className={styles.buttonContainer}>
             <Button 
@@ -299,7 +495,7 @@ export default function QuizPage() {
             <Button 
               type="primary" 
               onClick={handleNext} 
-              disabled={!selectedOption}
+              disabled={!selectedOption || (showAnswersImmediately && !answerSubmitted)}
               icon={<ArrowRightOutlined />}
             >
               {currentQuestionIndex === questions.length - 1 ? 'Finish' : 'Next'}

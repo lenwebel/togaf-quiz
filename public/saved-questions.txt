@@ -1,0 +1,1031 @@
+Free The Open Group OGEA-103 Exam Questions By Johnston - Page 1
+Free Questions for OGEA-103
+Shared by Johnston on 03-03-2025
+For More Free Questions and Preparation Resources
+Check the Links on Last Page
+Free The Open Group OGEA-103 Exam Questions By Johnston - Page 2
+Question 1
+Question Type: MultipleChoice
+Scenario
+You are working as an Enterprise Architect within an Enterprise Architecture (EA) team at a large
+government agency. The agency has multiple divisions.
+The agency has a well-established EA practice and follows the TOGAF standard as its method for
+architecture development. Along with the EA program, the agency also uses various
+management frameworks, including business planning, project/portfolio management, and
+operations management. The EA program is sponsored by the Chief Information Officer (CIO),
+who has actively promoted architecting with agility within the EA department as her preferred
+approach for projects.
+The government has mandated that the agency prepare themselves for an Artificial Intelligence
+(AI)-first world, which they have called their ''AI-first'' plan. As a result, the agency is looking to
+determine the impact and role that AI will play moving forward. The CIO has approved a Request
+for Architecture Work to look at how AI can be used for services across the agency. She has noted
+that digital platforms will be a priority for investment in order to scale the AI applications
+planned. Using AI to automate tasks and make things run smoother is seen as a big advantage.
+Process automation and improved efficiency from manual, repetitive activities have been
+identified as the key benefits of applying generative AI to their agency's business. This will
+include back-office automation, for example, for help center agents who receive hundreds of
+email inquiries. This should also improve services for citizens by making them more efficient and
+personalized, tailored to each individual's needs.
+Many of the agency leaders are worried about relying too much on AI. Some leaders think their
+employees will need to learn new skills. Some employees are worried they might lose their jobs
+to AI. Other leaders worry about security and cyber resilience in the digital platforms needed for
+AI to be successful.
+The leader of the Enterprise Architecture team has asked for your suggestions on how to address
+the concerns, and how to manage the risks of a new architecture for the AI-first project.
+Based on the TOGAF standard, which of the following is the best answer?
+Options:
+A- You recommend creating an Organization Map to display the links between different parts of
+the agency. This will help the EA team to find and involve all areas of the agency impacted by
+this strategic change. Multiple business models should then be created that can be applied to AIrelated projects. A meeting will be held with the stakeholders to teach them how to interpret the
+models and see how their concerns are being addressed. Risk will be managed as part of the
+Free The Open Group OGEA-103 Exam Questions By Johnston - Page 3
+Security Architecture development.
+B- You recommend that the key stakeholders be formally identified. This should include those
+who will be most helpful for the change to be successful. A Communication Plan should be made
+to address their needs. This plan should include a report that summarizes the key features of the
+architecture based on stakeholder requirements and addressing concerns. You communicate with
+each key stakeholder to make sure their concerns are being addressed. You make sure that the
+architecture being developed clearly addresses risk management.
+C- You recommend conducting an analysis of the stakeholders. This involves documenting the
+positions, concerns, issues, and cultural factors of each group. This information will shape how
+the architecture is to be presented and communicated. The concerns and relevant views can
+then be defined for each group and recorded in the Architecture Vision document. The
+requirements for addressing risk should be recorded in the Architecture Requirements
+Specification and checked through regular assessments and feedback.
+D- You recommend conducting an analysis that separates the different types of stakeholders into
+groups. They can be divided into categories: corporate functions, end-user organization, project
+team, external vendors, and external partners. A model will be developed for each stakeholder
+category to ensure that all the necessary information and actions are taken into account.
+Meetings will be arranged with stakeholders to verify that their concerns have been adequately
+addressed. Risk management will be included in this process.
+Answer:
+C
+Explanation:
+Comprehensive and Detailed Step-by-Step Explanation
+Context of the Scenario
+The agency is initiating a strategic ''AI-first'' plan to transform processes using AI and improve
+efficiency while ensuring service improvements for citizens. Several stakeholder concerns have
+been raised, such as:
+Job security for employees.
+Skill development for adapting to new technologies.
+Cybersecurity and resilience risks due to reliance on digital platforms.
+TOGAF emphasizes the importance of stakeholder management, communication, and risk
+management to ensure successful adoption and implementation of new architecture. These
+concerns need to be addressed methodically by gathering requirements, analyzing stakeholder
+positions, and ensuring proper communication of risks and benefits.
+Option Analysis
+Free The Open Group OGEA-103 Exam Questions By Johnston - Page 4
+Option A:
+Strengths:
+Proposes creating an Organization Map to identify the links between different parts of the agency
+and the impact of the strategic change.
+Suggests holding stakeholder meetings to address concerns.
+Includes managing risks as part of Security Architecture development.
+Weaknesses:
+Focusing solely on creating business models and teaching stakeholders how to interpret them
+does not directly address cultural and positional concerns about job loss, skill development, and
+security.
+Risk management is addressed as part of Security Architecture development but lacks broader
+integration into stakeholder requirements.
+Conclusion: Incorrect, as it fails to systematically document stakeholder concerns and map them
+into requirements and architecture decisions.
+Option B:
+Strengths:
+Highlights the importance of formal stakeholder identification and creating a Communication
+Plan.
+Suggests addressing stakeholder concerns through communication and risk management.
+Weaknesses:
+Does not go into detail on analyzing stakeholder concerns, cultural positions, or specific
+requirements.
+Lacks the inclusion of stakeholder feedback in architecture artifacts like the Architecture Vision or
+Requirements Specification, which are critical TOGAF outputs.
+Conclusion: Incorrect, as it does not include a systematic and structured approach for stakeholder
+analysis and integration into architecture deliverables.
+Option C:
+Strengths:
+Emphasizes conducting a thorough stakeholder analysis to document concerns, positions, and
+cultural factors, which aligns with TOGAF's approach in Phase A (Architecture Vision).
+Ensures stakeholder views and requirements are recorded in the Architecture Vision document
+and reflected in the Architecture Requirements Specification.
+Free The Open Group OGEA-103 Exam Questions By Johnston - Page 5
+Includes continuous assessment and feedback, ensuring concerns are addressed and risks
+managed effectively.
+Aligns with TOGAF's principle of involving stakeholders in architecture development to ensure
+alignment and success.
+Weaknesses:
+Could further detail how risk management is included across all phases, but this is implied
+through integration into the Architecture Requirements Specification.
+Conclusion: Correct, as it provides a structured and detailed approach for addressing stakeholder
+concerns and managing risks within TOGAF's framework.
+Option D:
+Strengths:
+Suggests categorizing stakeholders into groups and creating models for each category.
+Proposes arranging meetings to verify that concerns have been addressed.
+Includes risk management as part of the process.
+Weaknesses:
+Dividing stakeholders into generic categories (e.g., corporate functions, project team) may not
+adequately capture specific cultural factors and concerns raised in the scenario.
+Lacks integration of stakeholder feedback into architecture deliverables such as the Architecture
+Vision and Architecture Requirements Specification.
+Conclusion: Incorrect, as it provides a generalized and less targeted approach to stakeholder
+concerns compared to Option C.
+TOGAF Reference
+Stakeholder Management (Phase A): TOGAF emphasizes analyzing stakeholders' positions,
+concerns, and issues to shape architecture development and communication (TOGAF 9.2, Section
+24.2).
+Architecture Vision: Captures high-level requirements and stakeholder views to ensure alignment
+with business goals (TOGAF 9.2, Section 6.2).
+Architecture Requirements Specification: Records detailed requirements, including those related
+to risk management, to guide the development of target architectures (TOGAF 9.2, Section 35.5).
+Iterative Feedback: Regular assessments and feedback loops are critical to ensure stakeholder
+concerns are addressed effectively throughout the ADM cycle.
+By selecting Option C, the approach adheres to TOGAF's principles of stakeholder analysis,
+Free The Open Group OGEA-103 Exam Questions By Johnston - Page 6
+communication, and integration of concerns into architecture development.
+Question 2
+Question Type: MultipleChoice
+Scenario
+Your role is that of an Enterprise Architect, reporting to the Chief Enterprise Architect, at a
+technology company.
+The company uses the TOGAF standard as the method and guiding framework for its Enterprise
+Architecture (EA) practice. The Chief Technology Officer (CTO) is the sponsor of the activity. The
+EA practice uses an iterative approach for its architecture development. This has enabled the
+decision-makers to gain valuable insights into the different aspects of the business.
+The nature of the business is such that the data and the information stored on the company
+systems is the company's major asset and is highly confidential. The company employees travel
+a lot for work and need to communicate over public infrastructure. They use message encryption,
+secure internet connections using Virtual Private Networks (VPNs), and other standard security
+measures. The company has provided computer security awareness training for all its staff.
+However, despite good education and system security, there is still a need to rely on third-party
+suppliers for infrastructure and software.
+The Chief Security Officer (CSO) has noted an increase in ransomware (malicious software used in
+ransom demands) attacks on companies with a similar profile. The CSO recognizes that no matter
+how much is spent on education and support, the company could be a victim of a significant
+attack that could completely lock them out of their important data.
+A risk assessment has been completed, and the company has looked for cyber insurance that
+covers ransomware. The price for this insurance is very high. The CTO recently saw a survey that
+said 1 out of 4 businesses that paid ransoms could not get their data back, and almost the same
+number were able to recover the data without paying. The CTO has decided not to get cyber
+insurance to cover ransom payment.
+You have been asked to describe the steps you would take to strengthen the current architecture
+to improve data protection.
+Based on the TOGAF standard, which of the following is the best answer?
+Options:
+A- You would ensure that the company has in place up-to-date processes for managing change to
+the current Enterprise Architecture. Based on the scope of the concerns raised, you recommend
+Free The Open Group OGEA-103 Exam Questions By Johnston - Page 7
+that this be managed at the infrastructure level. Changes should be made to the baseline
+description of the Technology Architecture. The changes should be approved by the Architecture
+Board and implemented by change management techniques.
+B- You would request an Architecture Compliance Review with the scope to examine the
+company's ability to respond to ransomware attacks. You would identify the departments
+involved and have them nominate representatives. You would then tailor checklists to address
+the requirement for increased resilience. You would circulate to the nominated representatives
+for them to complete. You would then review the completed checklists, identifying and resolving
+issues. You would then determine and present your recommendations.
+C- You would monitor for technology updates from your existing suppliers that could enhance the
+company's capabilities to detect, react, and recover from an IT security incident. You would
+prepare and run a disaster recovery planning exercise for a ransomware attack and analyze the
+performance of the current Enterprise Architecture. Using the findings, you would prepare a gap
+analysis of the current Enterprise Architecture. You would prepare change requests to address
+identified gaps. You would add the changes implemented to the Architecture Repository.
+D- You would assess business continuity requirements and analyze the current Enterprise
+Architecture for gaps. You would recommend changes to address the situation and create a
+change request. You would engage the Architecture Board to assess and approve the change
+request. Once approved, you would create a new Request for Architecture Work to begin an ADM
+cycle to implement the changes.
+Answer:
+B
+Explanation:
+Comprehensive and Detailed Step-by-Step Explanation
+Context of the Scenario
+The scenario highlights significant risks due to ransomware attacks and the need to strengthen
+the company's Enterprise Architecture to improve data protection and resilience. TOGAF
+emphasizes the Architecture Compliance Review as a mechanism for ensuring the architecture
+meets its objectives and addresses specific concerns such as security, resilience, and compliance
+with organizational goals.
+The organization has already conducted a risk assessment but requires actionable steps to:
+Address ransomware attack risks.
+Increase the resilience of the Technology Architecture.
+Ensure proper alignment with governance and compliance frameworks.
+Option Analysis
+Free The Open Group OGEA-103 Exam Questions By Johnston - Page 8
+Option A:
+Strengths:
+Highlights the need for up-to-date processes for managing changes in the Enterprise
+Architecture.
+Recognizes the importance of governance through the Architecture Board and change
+management techniques.
+Weaknesses:
+The approach focuses solely on the Technology Architecture baseline but does not address the
+need for specific steps such as compliance review, gap analysis, or tailored resilience measures
+for ransomware risks.
+It provides a broad and generic approach rather than a targeted plan for ransomware and data
+protection issues.
+Conclusion: Incorrect. While it adheres to governance processes, it lacks specific actions to
+improve resilience and address the immediate security concerns.
+Option B:
+Strengths:
+Proposes an Architecture Compliance Review, which is a core TOGAF process used to evaluate
+architecture implementation against defined objectives, ensuring it is fit for purpose.
+Involves identifying stakeholders (departments) and tailoring checklists specific to ransomware
+resilience.
+Emphasizes issue identification and resolution through structured review processes.
+Weaknesses:
+Does not explicitly address longer-term updates to the Enterprise Architecture, but this can be
+inferred as a next step following compliance recommendations.
+Conclusion: Correct. This is the most suitable approach based on TOGAF principles, as it uses an
+established process to evaluate and improve the architecture's resilience.
+Option C:
+Strengths:
+Includes monitoring for updates from suppliers to enhance detection and recovery capabilities,
+which is relevant to addressing ransomware risks.
+Proposes a gap analysis to identify shortcomings in the current Enterprise Architecture and
+recommends addressing gaps through change requests.
+Free The Open Group OGEA-103 Exam Questions By Johnston - Page 9
+Incorporates disaster recovery planning exercises, which are useful for testing resilience.
+Weaknesses:
+While thorough, the approach lacks the Architecture Compliance Review process, which is a more
+structured way to ensure the architecture meets resilience requirements.
+Monitoring suppliers and running disaster recovery exercises are operational steps rather than
+strategic architectural improvements.
+Conclusion: Incorrect. While it includes valid activities, it does not adhere to TOGAF's structured
+approach for architecture assessment and compliance.
+Option D:
+Strengths:
+Proposes analyzing business continuity requirements and assessing the architecture for gaps,
+which is relevant to the scenario.
+Suggests initiating an ADM cycle to address gaps, which aligns with TOGAF principles.
+Weaknesses:
+Focusing on initiating a new ADM cycle may be premature, as the immediate priority is to
+evaluate the existing architecture and address specific resilience concerns.
+Does not mention compliance review or tailored resilience measures for ransomware attacks,
+which are central to the scenario.
+Conclusion: Incorrect. It proposes a broader approach that may not adequately address the
+immediate concerns highlighted by the CSO.
+TOGAF Reference
+Architecture Compliance Review: A structured process used to evaluate whether an architecture
+meets the stated goals, objectives, and requirements (TOGAF 9.2, Chapter 19). It is particularly
+useful for identifying and addressing resilience requirements in scenarios involving security risks.
+Stakeholder Engagement: Identifying and involving stakeholders (e.g., departments) is a critical
+part of architecture governance and compliance review (TOGAF 9.2, Section 24.2).
+Change Management: The Architecture Compliance Review supports identifying necessary
+changes, which are then managed through governance and change management processes
+(TOGAF 9.2, Section 21.6).
+By choosing Option B, you align with TOGAF's structured approach to compliance, resilience, and
+addressing security concerns.
+Free The Open Group OGEA-103 Exam Questions By Johnston - Page 10
+Question 3
+Question Type: MultipleChoice
+Scenario
+You are working as an Enterprise Architect within an Enterprise Architecture (EA) team at a global
+company that sells consumer products. The company produces many products that buyers use
+and enjoy.
+The company has announced a major change to its products that will occur over a four-year
+period. This change includes the introduction of digital products and services. An architecture to
+support this strategy has been finished, along with a roadmap for a set of projects to implement
+this significant change. This will be a cross-functional effort between the product design and
+software teams. It is planned to be developed in phases.
+The company faces a challenge in presenting and providing access to different services through
+its products and digital platforms while ensuring compliance with data privacy laws. In some
+countries and regions, the data residency requirements mean that the company has to store
+certain data within the region where it is collected. As a result, the company's application
+portfolio and infrastructure must connect with various cloud services and data repositories in
+different countries.
+The EA team has inherited the architecture used by the current products, some of which can be
+carried over to the new products. The EA team has started to define which parts of the
+architecture to carry forward. Enough of the Business Architecture has been defined so that work
+can commence on the Information Systems and Technology Architectures. Those architectures
+need to be defined to support the key digital services that the company plans to provide.
+The company uses the TOGAF Standard as the foundation for its Enterprise Architecture
+framework, and architecture development follows the purpose-based EA Capability model
+outlined in the TOGAF Series Guide: A Practitioner's Approach to Developing Enterprise
+Architecture Following the TOGAF ADM. The EA team reports to the Chief Information Officer
+(CIO), who oversees the program.
+You have been asked how to decide and organize the work to deliver the requested architectures.
+Based on the TOGAF standard, which of the following is the best answer?
+Options:
+A- You refer to the superior architecture for guidance. You review the projects identified, their
+dependencies, and synergies, then decide the sequence for starting the projects. You develop
+high-level architecture descriptions. For each project, you determine how much work is needed,
+identify reference architectures, and candidate building blocks. You identify the resource needs
+taking into account cost and value. You document the different options, risks, and ways to control
+Free The Open Group OGEA-103 Exam Questions By Johnston - Page 11
+them to enable feasibility analysis and trade-off with the stakeholders.
+B- You look outside the company to study how other companies organize their data models and
+application portfolios. You create just enough architecture description for the Application, Data,
+and Technology Architectures to identify the different options. For each project, this includes
+identification of candidate architecture and solution building blocks. You then identify solution
+providers, perform a readiness assessment, and assess the viability and fitness of the solution
+options. You then write the draft Implementation and Migration plan.
+C- You research leading data companies, using your findings to help in developing high-level
+Target Data, Application, and Technology Architectures. You review the Architecture Vision to
+determine the level of detail, time, and scope of the ADM cycle phases required for each project.
+You identify and estimate the cost of the main resources. You then prepare an Architecture
+Roadmap and request the Architecture Board to review the roadmap. You then start the project.
+D- You commence an iteration of ADM Phase A, identifying the stakeholders and revising the
+Architecture Vision. You perform a Stakeholder Analysis and update the Stakeholder Map. You
+conduct workshops and interviews to reflect the stakeholders who are now the key drivers for the
+digital products and services. You coordinate with the CIO to ensure alignment with the overall
+roadmap and update the Implementation and Migration Plan accordingly.
+Answer:
+A
+Explanation:
+Comprehensive and Detailed Step-by-Step Explanation
+Context of the Scenario
+The company is in the process of delivering requested architectures to support the introduction of
+digital products and services. The Business Architecture is sufficiently defined, and the focus is on
+developing the Information Systems and Technology Architectures.
+TOGAF emphasizes breaking down large, complex transformation programs into manageable
+projects, focusing on dependencies, risks, trade-offs, and sequencing of efforts. Based on the
+scenario, the company must deal with:
+Data privacy and residency compliance across different regions.
+Re-use of existing architecture for efficiency.
+Alignment of digital services with a global roadmap.
+The activity described aligns with ADM Phases B (Business Architecture), C (Information Systems
+Architecture), and D (Technology Architecture), with a focus on delivering architectures for
+implementation.
+Option Analysis
+Free The Open Group OGEA-103 Exam Questions By Johnston - Page 12
+Option A:
+Strengths:
+Refers to developing high-level architecture descriptions and identifying reference architectures
+and candidate building blocks, which align with ADM Phases B, C, and D.
+Addresses feasibility analysis, trade-offs, and stakeholder engagement, which are part of
+architecture development and decision-making in TOGAF.
+Ensures that the architecture descriptions are resource-conscious, including cost and value
+analysis, dependencies, risks, and synergies between projects.
+Conclusion: Correct, as it provides a complete approach to organizing the work to deliver
+architectures while adhering to TOGAF principles.
+Option B:
+Strengths:
+Suggests creating architecture descriptions for the Application, Data, and Technology
+Architectures, which are necessary for delivering requested architectures.
+Addresses readiness assessments and the fitness of solutions.
+Weaknesses:
+Emphasizes looking outside the company and studying other companies' models, which is not
+necessarily aligned with TOGAF unless justified by specific gaps.
+Skips essential TOGAF steps like feasibility analysis and detailed stakeholder engagement.
+Conclusion: Incorrect, as it places undue emphasis on external research instead of leveraging
+TOGAF's structured ADM.
+Option C:
+Strengths:
+Suggests reviewing the Architecture Vision and determining scope, which aligns with TOGAF
+principles.
+Proposes preparing an Architecture Roadmap and involving the Architecture Board for review.
+Weaknesses:
+Does not cover important elements such as candidate building blocks, feasibility analysis, or
+stakeholder engagement.
+Suggests starting the project prematurely without proper sequencing or risk trade-offs.
+Conclusion: Incorrect, as it skips key steps and lacks a structured approach to dependencies and
+Free The Open Group OGEA-103 Exam Questions By Johnston - Page 13
+resource management.
+Option D:
+Strengths:
+Suggests revising the Architecture Vision and conducting a Stakeholder Analysis, which aligns
+with Phase A of the ADM.
+Weaknesses:
+Returning to Phase A is not required here, as the Architecture Vision has already been defined.
+Revising the vision at this stage indicates a step backward.
+Lacks focus on feasibility analysis, dependencies, and sequencing, which are the immediate
+needs in this phase.
+Conclusion: Incorrect, as it unnecessarily revisits earlier ADM phases instead of progressing.
+TOGAF Reference
+ADM Phases B, C, D: Emphasizes developing detailed architectures, identifying candidate building
+blocks, and addressing dependencies, risks, and resource needs (TOGAF 9.2, Chapters 8-10).
+Architecture Roadmap and Feasibility Analysis: Guides sequencing and trade-offs for
+implementation (TOGAF 9.2, Section 12.4).
+Stakeholder Engagement: Critical for ensuring alignment and feasibility (TOGAF 9.2, Section
+24.2).
+Decision-Making and Trade-offs: TOGAF emphasizes documenting risks and trade-offs as part of
+feasibility analysis (TOGAF 9.2, Section 6.4.1).
+Question 4
+Question Type: MultipleChoice
+Scenario
+You are working as an Enterprise Architect within a large manufacturing company. The company
+has multiple divisions located worldwide.
+After a recent study, senior management is concerned about the impact of the company's
+multiple data centers and duplication of applications on business efficiency. To address this
+concern, a strategic architecture has been defined; it will help improve the ability to meet
+customer demand and improve the efficiency of operations. The strategic architecture involves
+the consolidation of multiple application programs that are currently used in different divisions
+Free The Open Group OGEA-103 Exam Questions By Johnston - Page 14
+and putting them all onto a cloud-based solution instead.
+Each division has completed the Architecture Definition documentation to meet its own specific
+operational requirements. The enterprise architects have analyzed the corporate changes and
+implementation constraints. A consolidated gap analysis has been completed. Based on its
+results, the architects have reviewed the requirements, dependencies, and interoperability
+requirements needed to integrate the cloud-based solution. The architects have completed the
+Business Transformation Readiness Assessment. Based on all these factors, they have produced
+a risk assessment. They have also completed the draft Implementation and Migration Plan, the
+draft Architecture Roadmap, and the Capability Assessment deliverables.
+Due to the risks of changing from the current environment, the decision has been taken that a
+gradual approach is needed to implement the target architecture. It will likely take a few years to
+complete the whole implementation process.
+The company has a mature Enterprise Architecture (EA) practice and uses the TOGAF standard
+for its architecture development method. The EA practice is engaged throughout all the divisions,
+with implementation governance assigned to a business line. In addition to providing guidance on
+using architecture frameworks, including business planning, project/portfolio management, and
+operations management, the EA program is sponsored by the Chief Information Officer (CIO).
+You have been asked to decide on the next steps for the migration planning.
+Based on the TOGAF standard, which of the following is the best answer?
+Options:
+A- You update the Architecture Definition Document, which includes setting project objectives
+and documenting the final requirements. This will ensure that the architecture remains relevant
+and responsive to the needs of the enterprise. You then produce an Implementation Governance
+Model to manage the lessons learned prior to finalizing the Implementation and Migration Plan.
+You recommend that lessons learned be applied as changes to the architecture without review.
+B- You conduct a series of Compliance Assessments to ensure that the architecture is being
+implemented according to the contract. The Compliance Assessment verifies that the
+implementation team is using the proper development methodology. It should include
+deployment of monitoring tools and ensure that performance targets are being met. If they are
+not met, then you would identify changes to performance requirements and update those in the
+Implementation and Migration Plan.
+C- You examine how the Implementation and Migration Plan affects the other frameworks being
+used in the organization. You coordinate the planning with the business planning,
+project/portfolio management, and operations management frameworks. You assign a business
+value to each project, considering the available resources and how well they align with the
+strategy. You then update the architecture roadmap and the Implementation and Migration Plan.
+D- You assess the business value for each project by applying the Business Value Assessment
+Technique. The assessment should focus on return on investment and performance evaluation
+Free The Open Group OGEA-103 Exam Questions By Johnston - Page 15
+criteria to prioritize the most progress of the architecture transformation. You confirm and plan a
+series of Transition Architecture phases using an Architecture Definition Increments Table. You
+document the lessons learned and generate the final Implementation and Migration Plan.
+Answer:
+C
+Explanation:
+Context of the Scenario
+The organization is currently in the Migration Planning phase, which corresponds to Phase F of
+the TOGAF ADM (Architecture Development Method). The key activities for this phase involve:
+Evaluating dependencies and impacts on other organizational frameworks.
+Aligning the roadmap and migration plan with strategic objectives and available resources.
+Addressing the risks of transitioning from the current architecture to the target architecture using
+a phased approach.
+The deliverables (Architecture Roadmap, Capability Assessment, etc.) and assessments (Gap
+Analysis, Risk Assessment, Transformation Readiness) have already been developed. The next
+step is to refine and finalize the migration planning.
+Option Analysis
+Option A:
+While updating the Architecture Definition Document could ensure alignment, this step was
+completed in earlier phases (B, C, D). At this stage, further changes to the architecture must go
+through a formal governance review, and applying lessons learned without review contradicts
+TOGAF principles.
+Producing an Implementation Governance Model is more relevant in Phase G (Implementation
+Governance), not in Phase F.
+Conclusion: Incorrect, as it suggests revisiting earlier steps and does not align with the current
+phase.
+Option B:
+Conducting Compliance Assessments ensures the architecture is implemented correctly, but this
+is a task for Phase G (Implementation Governance) after migration planning has been finalized
+and implementation begins.
+Deployment of monitoring tools is also part of implementation and governance activities, not
+migration planning.
+Free The Open Group OGEA-103 Exam Questions By Johnston - Page 16
+Conclusion: Incorrect, as it focuses on tasks belonging to a later phase.
+Option C:
+Examining how the Implementation and Migration Plan affects other organizational frameworks is
+critical in Phase F, as TOGAF emphasizes alignment with business planning, project/portfolio
+management, and operations management.
+Assigning business value to each project ensures prioritization and optimal allocation of
+resources.
+Updating the Architecture Roadmap and the Implementation and Migration Plan based on this
+analysis ensures strategic alignment and readiness for implementation.
+Conclusion: Correct, as it addresses the key objectives of the Migration Planning phase
+comprehensively.
+Option D:
+Applying the Business Value Assessment Technique is valid for prioritizing initiatives but is a
+limited aspect of Migration Planning.
+Planning Transition Architecture phases and documenting lessons learned are valid, but this does
+not address broader organizational impacts or dependencies as effectively as Option C.
+Conclusion: Narrow focus; less comprehensive than Option C.
+Reference to TOGAF
+Phase F (Migration Planning): The focus is on aligning the migration plan with business objectives,
+considering organizational dependencies, and prioritizing projects (TOGAF 9.2, Chapter 12).
+Architecture Roadmap and Implementation Plan: Updated to reflect changes in priorities and
+alignment with business frameworks (TOGAF 9.2, Section 12.4).
+Framework Integration: Collaboration with other frameworks (e.g., business planning, portfolio
+management) ensures alignment across the organization (TOGAF 9.2, Section 6.5.2).
+Business Value Assessment Technique: Used to prioritize initiatives based on return on
+investment and performance criteria (TOGAF 9.2, Section 24.4).
+Question 5
+Question Type: MultipleChoice
+Please read this scenario prior to answering the question
+You are working as an Enterprise Architect within a healthcare and life science company. The
+Free The Open Group OGEA-103 Exam Questions By Johnston - Page 17
+company is a
+leading player in its industry, dedicated to transforming healthcare with new ideas and
+advancements. The
+company has multiple divisions that cover different aspects of the business.
+The company's Enterprise Architecture (EA) department has been operating for several years and
+has
+mature, well-developed architecture governance and development processes following the
+TOGAF
+Standard. In addition to the EA program, the company has a number of management frameworks
+in use.
+The Architecture Board includes representatives from each division of the company.
+Many of the company's rivals have begun utilizing Artificial Intelligence (Al) in their operations,
+and the
+indications are that this will be transformative for healthcare delivery. This is something the EA
+department
+has been interested in for a while, and they had recently submitted an architecture Change
+Request which
+was approved. As a result, the CIO has approved a Request for Architecture Work to investigate
+the
+implementation of Al in the company.
+Areas for evaluation include:
+How can staff use Al daily in their current role?
+How Al can enhance access to care for patients, and how to make that experience seamless?
+How Al can offer new workplace platforms and tools to increase efficiency?
+Some of the top managers are worried about a change in the way of working, and if it will achieve
+the goals.
+Many are not confident that the company's risk management processes are adequate for a
+company-wide
+integration of generative Al. There are also questions from staff about whether enough specific
+guidelines
+and polices have been put in place for responsible use of Al.
+The Chief Information Officer (CIO) is the sponsor of the Enterprise Architecture program. The CIO
+Free The Open Group OGEA-103 Exam Questions By Johnston - Page 18
+has
+actively encouraged architecting with agility within the EA department as her preferred approach
+for projects.
+The CIO wants to know how to address these concerns and reduce risks.
+Refer to the scenario
+You have been tasked with starting the architecture development. How do you begin?
+Based on the TOGAF standard which of the following is the best answer?
+Options:
+A- You recommend that an analysis of the stakeholders is undertaken. This will allow the
+architects to
+define groups of partners (the stakeholders) who have common concerns and include
+development
+of a Stakeholder Map. The concerns and relevant views should then be defined for each group
+and
+recorded in the Architecture Vision document. To mitigate risk, you include a requirement that
+there
+be progressive development of the target architecture to ensure there is regular feedback.
+B- You recommend that a Communications Plan be created to address the key stakeholders, that
+is the
+most powerful and influential partners. This plan should include a report that summarizes the key
+features of the architecture with respect to each location and reflects the stakeholders'
+requirements.
+You will check with each key stakeholder that their concerns are being addressed. Risk mitigation
+should be explicitly addressed as a component of the architecture being developed.
+C- You recommend that models be created for the Draft Business, Data, Application, and
+Technology
+Architectures. These can be used to ensure that the system will be compliant with the local
+regulations for each division. Together with the problem description, and requirements, this
+ensures
+that all the necessary data and detail is addressed. A formal review should be held with the
+stakeholders to verify that their concerns have been properly addressed by the models.
+D- You recommend creation of a set of business models that can be applied uniformly across all
+Alrelated architecture projects. These should be developed in the portable format to ensure
+maximum
+portability across the many tools used in the firm. Each architecture should then be defined
+based on
+this fixed set of models. All concerned parties can then examine the models to ensure that their
+Free The Open Group OGEA-103 Exam Questions By Johnston - Page 19
+needs have been addressed.
+Answer:
+A
+Explanation:
+Key aspects of the scenario:
+Objective:
+Integrating Artificial Intelligence (AI) into healthcare delivery, with a focus on improving patient
+care, enhancing workplace efficiency, and enabling seamless experiences.
+Challenges:
+Stakeholder concerns about risk management, adaptability to change, and ensuring alignment
+with regulations and policies.
+Addressing the concerns of staff and top management about AI integration and achieving the
+desired goals.
+CIO's Perspective:
+Encouraging an agile approach to architecture development.
+Addressing risks and ensuring stakeholder concerns are managed.
+Areas for Evaluation:
+AI usage by staff and impact on workflows.
+Patient experience enhancement via AI.
+New workplace platforms and tools powered by AI.
+Option Analysis:
+Option 1: Analysis of stakeholders and development of a Stakeholder Map
+Pros:
+Stakeholder analysis is critical for identifying concerns, viewpoints, and requirements.
+TOGAF emphasizes stakeholder engagement early in the process to mitigate risks and align
+expectations.
+Developing a Stakeholder Map ensures clear alignment with their interests and creates a
+foundation for regular feedback loops.
+Free The Open Group OGEA-103 Exam Questions By Johnston - Page 20
+Cons:
+Does not explicitly address the creation of architecture models or policies upfront.
+Option 2: Creation of a Communications Plan
+Pros:
+A communications plan fosters effective stakeholder engagement by addressing their concerns
+and ensuring transparent reporting.
+Risk mitigation as part of communication aligns with TOGAF's stakeholder management
+practices.
+Cons:
+This focuses more on communication mechanics rather than advancing architectural
+development directly.
+Option 3: Models for Draft Business, Data, Application, and Technology Architectures
+Pros:
+Aligns with the Architecture Development Method (ADM), ensuring compliance with requirements
+and regulations.
+Helps formalize stakeholder feedback by verifying their concerns against tangible models.
+Cons:
+Developing detailed models early on may delay immediate resolution of stakeholder concerns
+and risk mitigation.
+Option 4: Set of reusable business models for AI-related projects
+Pros:
+Standardized models ensure consistency and portability across the organization's AI-related
+efforts.
+Cons:
+Too narrow in focus for the initial architecture development phase; does not address risk
+management or stakeholder concerns adequately.
+Recommended Answer:
+Option 1: You recommend that an analysis of the stakeholders is undertaken.
+Reasoning:
+The scenario highlights stakeholder concerns about risks, adaptability, and compliance.
+Free The Open Group OGEA-103 Exam Questions By Johnston - Page 21
+Addressing these concerns requires stakeholder analysis as the first step.
+A Stakeholder Map aligns with TOGAF's emphasis on stakeholder engagement, providing a
+structured way to manage their concerns and expectations.
+Identifying concerns early and integrating feedback into the Architecture Vision document
+ensures alignment with goals and smooth progress.
+Option 1 sets the foundation for collaboration and risk management, making it the best fit for the
+current phase.
+Question 6
+Question Type: MultipleChoice
+Please read this scenario prior to answering the question
+You are working as an Enterprise Architect at a large supermarket. The company runs many retail
+stores, as well as an online grocery shop. Many of the stores used to remain open 24/7, but the
+number has decreased in recent years. Instead, they now focus on fulfilling online orders during
+the night.
+The company has a mature Enterprise Architecture (EA) practice and uses the TOGAF standard
+for its architecture development method. The EA practice is involved in all aspects of the
+business, with oversight provided by an Architecture Board with representatives from different
+parts of the business. The EA program is sponsored by the Chief Information Officer (CIO).
+Each store uses a standard method to track sales and inventory. This involves sending accurate
+timely sales data to a central Al-based inventory management system that can predict demand,
+adjust stock levels and automate reordering. The central inventory management system is
+housed
+at the company's central data center.
+The company has bought a major rival. The Chief Executive Officer believes that a merger will
+enable growth through combined offerings and cost savings. The decision has been taken to fully
+integrate the two organizations, including merging retail operations and systems. This means
+that
+Free The Open Group OGEA-103 Exam Questions By Johnston - Page 22
+duplicated systems will be replaced with one standard retail management system. Also, the
+company will reduce the number of applications that are used. The CIO expects significant
+savings will be achieved by implementing these changes across the newly merged company.
+One improvement that the rival has successfully implemented is the use of hand-held devices
+within stores, for both customers and staff. This has increased both customer and staff employee
+satisfaction due to the time savings this has brought. The CIO has given the go-ahead to roll out
+the devices in all stores but has stated that training on how to use the hand-held devices should
+be brief because there are a lot of employees, many of whom are part-time.
+The Request for Architecture Work to oversee the merger has been approved. The project has
+been scoped and you have been assigned to work on it. Your role includes managing the
+architecture for the retail stores.
+Refer to the scenario
+You have been asked to confirm the most relevant architecture principles for the transformation.
+Based on the TOGAF Standard, which of the following is the best answer?
+[Note: The sequence of the principles listed in each answer does not matter. You should assume
+the company follows the set of principles that are provided in the TOGAF Standard, ADM
+Techniques, Architecture Principles chapter. You may need to refer to section 2.6 located in ADM
+Techniques within the reference text to answer this question.]
+Options:
+A- Maximize Benefit to the Enterprise, Common Use Applications, Data is an Asset, Responsive
+Change Management, Technology Independence
+B- Control Technical Diversity, Interoperability, Data is an Asset, Data is Shared, Business
+Continuity
+C- Common Vocabulary and Data Definitions, Compliance with the Law, Requirements Based
+Change, Responsive Change Management, Data Security
+D- Common Use Applications, Data is an Asset, Data is Accessible, Ease of Use, Business
+Continuity
+Answer:
+Free The Open Group OGEA-103 Exam Questions By Johnston - Page 23
+A
+Explanation:
+Key aspects of the scenario:
+Business Objective:
+A merger is happening to combine offerings, reduce costs, and achieve operational efficiency.
+The goal includes fully integrating retail operations and systems, replacing duplicated systems,
+and reducing the number of applications used.
+Technological Improvements:
+A central AI-based inventory system is in place.
+Hand-held devices for stores have improved customer and staff satisfaction and increased
+efficiency.
+Scope of Architecture Work:
+Integrating the merged systems.
+Managing retail architecture to optimize operations.
+TOGAF Alignment:
+TOGAF principles aim to ensure the architecture supports business transformation effectively
+while aligning with governance and best practices.
+Best answer analysis:
+Option 1:
+Maximize Benefit to the Enterprise: Aligns with the merger goals of cost reduction and efficiency.
+Common Use Applications: Matches the goal to reduce duplicated systems.
+Data is an Asset: Central AI system depends on accurate and reliable data.
+Responsive Change Management: Necessary to support the transition and manage organizational
+impacts.
+Technology Independence: Encourages selecting flexible, scalable solutions post-merger.
+This option comprehensively aligns with the scenario.
+Option 2:
+Control Technical Diversity: Important but less emphasized than cost reduction and application
+unification.
+Free The Open Group OGEA-103 Exam Questions By Johnston - Page 24
+Interoperability: Relevant, but less critical compared to principles addressing business value.
+Data is an Asset: Relevant.
+Data is Shared: Implied in centralized inventory but not directly stated.
+Business Continuity: Important but not the main focus here.
+This option partially fits but lacks emphasis on business outcomes.
+Option 3:
+Common Vocabulary and Data Definitions: Indirectly helpful but not central to the transformation.
+Compliance with the Law: Always critical, but no explicit legal issues are mentioned.
+Requirements-Based Change: General principle but not transformation-specific.
+Responsive Change Management: Relevant.
+Data Security: Important but not a central concern in the scenario.
+This option focuses more on governance and less on merger goals.
+Option 4:
+Common Use Applications: Relevant to reducing duplicate systems.
+Data is an Asset: Relevant.
+Data is Accessible: Fits with AI system and handheld devices but is a subset of 'Data is an Asset.'
+Ease of Use: Relevant to handheld devices but not a core transformation principle.
+Business Continuity: Important but secondary to cost and efficiency.
+This option focuses more on usability and accessibility rather than transformation objectives.
+Question 7
+Question Type: MultipleChoice
+You are working as an Enterprise Architect within the Enterprise Architecture (EA) team at a
+healthcare and life sciences company. The EA team is developing a secure system for
+researchers to share clinical trial information easily across the organization and with external
+partners.
+Due to the highly sensitive nature of the information, each architecture domain must consider
+privacy and safety concerns. The healthcare division has been directed to minimize disruptions to
+Free The Open Group OGEA-103 Exam Questions By Johnston - Page 25
+clinical trials while introducing the new system gradually.
+How would you identify the work packages for introducing the new system? Based on the TOGAF
+standard, which of the following is the best answer?
+Options:
+A- Use a Consolidated Gaps, Solutions, and Dependencies Matrix to create work packages and
+sequence them into Capability Increments. Document in a Transition Architecture State Evolution
+Table.
+B- Identify Solution Building Blocks for development or procurement, then use a CRUD matrix to
+rank and select the most cost-effective work packages. Schedule the rollout sequentially across
+regions.
+C- Use a Consolidated Gaps, Solutions, and Dependencies Matrix to classify each solution, group
+them into work packages, then regroup into Capability Increments. Document in an Architecture
+Definition Increments Table.
+D- Draw up an Implementation Factor Catalog to indicate actions and constraints. Use a
+Consolidated Gaps, Solutions, and Dependencies Matrix, then group similar activities into work
+packages and identify dependencies.
+Answer:
+C
+Explanation:
+In the TOGAF framework, understanding and addressing stakeholder concerns is crucial,
+particularly for complex projects with high stakes like the AI-first initiative described in the
+scenario. This approach aligns well with TOGAF's ADM (Architecture Development Method) and its
+emphasis on effective stakeholder management and risk assessment. Here's why this is the best
+course of action:
+Stakeholder Analysis and Documentation: Conducting a stakeholder analysis is foundational in
+the early stages of any TOGAF project, particularly during the Preliminary and Architecture Vision
+phases. This process involves identifying the different stakeholders, understanding their
+positions, documenting their concerns, and considering any cultural factors that might influence
+their perspective on the AI-first initiative. Given the diverse concerns raised (such as job security,
+skill requirements, and cybersecurity), it's essential to have a clear understanding of each
+stakeholder group's priorities and fears.
+Recording Concerns in the Architecture Vision Document: The Architecture Vision phase in TOGAF
+focuses on defining the high-level scope and objectives of the architecture project. By
+documenting stakeholder concerns and the corresponding views in the Architecture Vision
+document, the EA team ensures that these concerns are transparently acknowledged and
+Free The Open Group OGEA-103 Exam Questions By Johnston - Page 26
+addressed as part of the strategic direction. This step not only aligns with TOGAF best practices
+but also helps in building stakeholder buy-in and trust.
+Architecture Requirements Specification and Risk Management: Risk management is a key aspect
+of TOGAF's ADM, particularly in the Requirements Management and Implementation Governance
+phases. Documenting the requirements for addressing specific risks in the Architecture
+Requirements Specification provides a structured way to ensure that identified risks are
+acknowledged and managed throughout the transformation. Regular assessments and feedback
+loops ensure ongoing alignment and adaptability to emerging risks, which is particularly
+important given the dynamic nature of AI and its associated challenges.
+Alignment with TOGAF ADM Phases: This approach follows the prescribed flow of TOGAF's ADM,
+starting with stakeholder engagement in the Preliminary and Architecture Vision phases and
+progressing to risk assessment in the Requirements Management phase. By maintaining a focus
+on stakeholder needs and formalizing these into architecture requirements, the EA team can
+ensure that the architecture not only meets business objectives but also mitigates stakeholder
+concerns.
+TOGAF Reference on Stakeholder Management Techniques: TOGAF places significant emphasis
+on managing stakeholder concerns through its stakeholder management techniques, which
+highlight the need to systematically identify, analyze, and address the concerns of all involved
+parties. This practice helps ensure that the architecture is viable and accepted across the
+organization.
+By conducting a thorough stakeholder analysis and integrating the findings into both the
+Architecture Vision and the Architecture Requirements Specification, the EA team can proactively
+address stakeholder concerns, manage risks, and align the AI-first initiative with the agency's
+strategic objectives. This approach is consistent with TOGAF's guidance and provides a structured
+framework for addressing both business and technical challenges in the context of an AI-first
+transformation.
+Question 8
+Question Type: MultipleChoice
+You are working as an Enterprise Architect within an Enterprise Architecture (EA) team at a large
+government agency with multiple divisions. The agency has a well-established EA practice and
+follows the TOGAF standard as its method for architecture development. The government has
+mandated that the agency prepare for an "AI-first" world.
+The agency wants to determine the impact and role of AI in its future services. The CIO has
+approved a Request for Architecture Work to explore the use of AI in services. Some leaders are
+concerned about reliance on AI, security, and employees' need to acquire new skills.
+The EA team leader seeks suggestions on managing the risks associated with a new architecture
+Free The Open Group OGEA-103 Exam Questions By Johnston - Page 27
+for the AI-first project. Based on the TOGAF standard, which of the following is the best answer?
+Options:
+A- Conduct an analysis of stakeholders, documenting their concerns and recording them in the
+Architecture Vision document. Risks should be recorded in the Architecture Requirements
+Specification and reviewed regularly.
+B- Identify key stakeholders and develop a Communication Plan that addresses their needs.
+Ensure the architecture addresses risk management and summarizes features of the
+architecture.
+C- Separate stakeholders into groups and categorize them. Develop models for each group and
+verify that their concerns are addressed in Phase G, Implementation Governance.
+D- Create an organization map to show the links between different agency parts. Hold a meeting
+to teach stakeholders to interpret the models. Manage risks as part of Security Architecture
+development.
+Answer:
+A
+Explanation:
+In the context of the TOGAF standard, stakeholder management and addressing stakeholder
+concerns are critical components, especially for high-impact initiatives like adopting an AI-first
+approach. Here's why the selected answer aligns best with TOGAF principles and the scenario:
+Stakeholder Analysis and Engagement: Conducting a stakeholder analysis is essential as it helps
+identify and document the concerns, issues, and cultural factors influencing each stakeholder
+group. This aligns with TOGAF's emphasis on understanding and managing stakeholder concerns,
+particularly in the Preliminary and Architecture Vision phases of the ADM (Architecture
+Development Method). Since the scenario highlights diverse concerns about AI, understanding
+each group's unique perspective will help the EA team tailor the architecture to address these
+effectively.
+Architecture Vision Document: By documenting these concerns in the Architecture Vision
+document, the EA team can provide a clear, high-level representation of how AI will be adopted,
+its benefits, and how it addresses specific stakeholder concerns. This is critical for communicating
+the intent and value of the AI-first approach in a way that aligns with the agency's strategic
+goals, including addressing apprehensions about job security, skill development, and cyber
+resilience.
+Risk Management and Architecture Requirements Specification: TOGAF highlights the importance
+of identifying and managing risks early in the process. By documenting the requirements related
+to risk in the Architecture Requirements Specification, the EA team ensures that these concerns
+Free The Open Group OGEA-103 Exam Questions By Johnston - Page 28
+are formally integrated into the architecture and addressed throughout the ADM phases. Regular
+assessments and feedback loops will provide a mechanism for continual risk monitoring and
+adjustment as the AI-first initiative progresses.
+Alignment with TOGAF's ADM Phases: The approach specified aligns with TOGAF's guidance on
+managing risk and stakeholder concerns during the early ADM phases, specifically Architecture
+Vision and Requirements Management. In these phases, the framework emphasizes identifying
+and addressing risks associated with stakeholders' concerns to build a resilient and widely
+accepted architecture.
+Reference to TOGAF Stakeholder Management Techniques: TOGAF's stakeholder management
+techniques underscore the importance of understanding and addressing stakeholder needs as a
+foundational step. This involves assessing the influence and interest of various stakeholders and
+integrating their views into architectural development, ensuring that the architecture aligns with
+both business goals and operational realities.
+In conclusion, by conducting a thorough stakeholder analysis and documenting concerns in both
+the Architecture Vision and Architecture Requirements Specification, the EA team can ensure that
+stakeholder concerns are addressed, that the architecture supports AI adoption effectively, and
+that potential risks are managed proactively. This approach will foster acceptance among
+stakeholders and ensure that the architecture aligns with the agency's strategic goals and risk
+management requirements as recommended by TOGAF.
+Question 9
+Question Type: MultipleChoice
+You are working as an Enterprise Architect within an Enterprise Architecture (EA) team at a
+multinational energy company. The company is committed to becoming a net-zero emissions
+energy business by 2050. To achieve this, the company is focusing on shifting to renewable
+energy production and adopting eco-friendly practices.
+The EA team, which reports to the Chief Technical Officer (CTO), has been tasked with overseeing
+the transformation to make the company more effective through acquisitions. The company plans
+to fully integrate these acquisitions, including merging operations and systems.
+To address the integration challenges, the EA team leader wants to know how to manage risks
+and ensure that the company succeeds with the proposed changes. Based on the TOGAF
+Standard, which of the following is the best answer?
+Options:
+A- The EA team should create a Business Scenario to fully describe the business problem that is
+Free The Open Group OGEA-103 Exam Questions By Johnston - Page 29
+being addressed by the transformation. Once requirements are identified, they should be
+evaluated in terms of risks. Any residual risks should be escalated to the Architecture Board.
+B- The EA team should develop Business Architecture views that demonstrate how stakeholder
+concerns are addressed and assess each factor for readiness, urgency, and degree of difficulty.
+C- The EA team should evaluate the company's readiness for change by identifying factors that
+will impact the transformation. These factors will be used to determine initial risks associated
+with the initiative.
+D- The EA team should document the risks associated with the transformation in an
+Implementation Factor Catalog to inform decisions during implementation and deployment.
+Answer:
+A
+Explanation:
+In TOGAF, creating a Business Scenario is a foundational step in defining and understanding the
+business problem, especially for complex transformations involving multiple stakeholders and
+systems, such as in this scenario. This method aligns with Phase A (Architecture Vision) of the
+TOGAF Architecture Development Method (ADM). Here's why this approach is the most effective:
+Understanding Business Requirements: A Business Scenario provides a structured way to capture
+and analyze the business requirements, stakeholder concerns, and the contextual elements
+related to the problem. In this scenario, the company faces challenges in integrating newly
+acquired companies with existing operations, which includes complex stakeholder concerns
+across different functional areas. Developing a Business Scenario allows the EA team to break
+down these complexities into identifiable and manageable parts.
+Risk Evaluation and Management: By using the Business Scenario approach, the EA team can not
+only define the requirements but also assess associated risks systematically. TOGAF emphasizes
+the importance of risk management through identifying potential risks, evaluating their impact,
+and defining strategies for handling these risks. The process includes assessing how risks can be
+avoided, transferred, or reduced---a necessary step in large-scale transformations to ensure that
+risks are proactively managed.
+Residual Risks and Governance: Any risks that cannot be fully resolved should be identified as
+residual risks and escalated to the Architecture Board, which is aligned with TOGAF's governance
+approach. The Architecture Board's role in TOGAF is to provide oversight and make critical
+decisions on risks that exceed the control of the EA team. This ensures that unresolved risks are
+managed at the appropriate level of the organization.
+Alignment with TOGAF ADM Phases: The Business Scenario approach directly aligns with the
+Preliminary and Architecture Vision phases of the TOGAF ADM, which focuses on establishing a
+baseline understanding of the business context and the strategic transformation required. The
+detailed understanding of requirements, stakeholder concerns, and risks identified here will guide
+the subsequent phases of the ADM, including Business Architecture and Information Systems
+Free The Open Group OGEA-103 Exam Questions By Johnston - Page 30
+Architecture.
+TOGAF Reference (Section 2.6, ADM Techniques): TOGAF provides guidelines on the creation of
+Business Scenarios as part of ADM Techniques, highlighting the importance of defining a business
+problem comprehensively to ensure successful transformation. This method includes
+identification of stakeholders, business requirements, and associated risks, which aligns well with
+the company's need for strategic and systematic integration of new business units.
+By utilizing a Business Scenario, the EA team ensures that all aspects of the transformation are
+well understood, risks are identified early, and residual risks are managed effectively, aligning
+with the company's strategic objectives and the TOGAF framework's guidance on risk
+management and stakeholder alignment.
+Question 10
+Question Type: MultipleChoice
+You are working as an Enterprise Architect at a large company. The company runs many retail
+stores as well as an online marketplace that allows hundreds of brands to partner with the
+company. The company has a mature Enterprise Architecture (EA) practice and uses the TOGAF
+standard for its architecture development method. The EA practice is involved in all aspects of
+the business, with oversight provided by an Architecture Board with representatives from
+different parts of the business. The EA program is sponsored by the Chief Information Officer
+(CIO).
+Many of the stores remain open all day and night. Each store uses a standard method to track
+sales and inventory, which involves sending accurate, timely sales data to a central AI-based
+inventory management system that can predict demand, adjust stock levels, and automate
+reordering. The central inventory management system is housed at the company's central data
+center.
+The company has acquired a major rival. The Chief Executive Officer (CEO) believes that the
+merger will enable growth through combined offerings and cost savings. The decision has been
+made to fully integrate the two organizations, including merging retail operations and systems.
+Duplicated systems will be replaced with one standard retail management system. The CIO
+expects significant savings from these changes across the newly merged company.
+The rival company has successfully implemented the use of hand-held devices within stores for
+both customers and staff, which has increased satisfaction due to time savings. The CIO has
+approved the rollout of these devices to all stores but has stated that training should be brief, as
+there are many part-time employees.
+You have been asked to confirm the most relevant architecture principles for this transformation.
+Based on the TOGAF Standard, which of the following is the best answer?
+Free The Open Group OGEA-103 Exam Questions By Johnston - Page 31
+Options:
+A- Common Vocabulary and Data Definitions, Compliance with the Law, Requirements Based
+Change, Responsive Change Management, Data Security
+B- Control Technical Diversity, Interoperability, Data is an Asset, Data is Shared, Business
+Continuity
+C- Common Use Applications, Data is an Asset, Data is Accessible, Ease of Use, Business
+Continuity
+D- Maximize Benefit to the Enterprise, Common Use Applications, Data is an Asset, Responsive
+Change Management, Technology Independence
+Answer:
+D
+Explanation:
+In this scenario, the enterprise is undergoing significant transformation due to a merger and the
+adoption of new technology (hand-held devices). Several key principles from TOGAF's ADM
+Techniques---particularly those focused on promoting enterprise-wide standardization,
+adaptability, and data utilization---are pertinent here:
+Maximize Benefit to the Enterprise: This principle emphasizes that all architectural decisions
+should deliver maximum business value. Given that the company is integrating systems to cut
+costs and improve offerings, maximizing the benefit is crucial. Ensuring that the EA efforts align
+with enterprise-wide benefits supports the goal of optimizing costs and enhancing offerings,
+which aligns with the CEO's vision for the merger.
+Common Use Applications: Standardizing applications across the merged entity will be essential
+to achieve cost savings and to simplify operations. The goal of reducing the number of
+applications fits with this principle, ensuring that reusable and widely adopted applications
+support business functions across the organization. Adopting this principle will also aid in
+harmonizing the systems from both organizations and avoiding unnecessary diversity.
+Data is an Asset: Data plays a central role in the company's operations, especially with the use of
+AI-driven inventory management and the integration of systems. Treating data as an asset is
+essential for reliable and accurate decision-making. This principle ensures that data is viewed as
+a critical enterprise resource and is managed with care, maintaining integrity, accuracy, and
+value.
+Responsive Change Management: The organization's ability to adapt quickly and effectively to
+changes, such as integrating new handheld devices and merging systems, is essential. This
+principle will facilitate the smooth transition required for integrating the new handheld devices
+and the merger-related system updates while minimizing disruption to store operations.
+Technology Independence: Since the enterprise will likely encounter varied technologies from the
+Free The Open Group OGEA-103 Exam Questions By Johnston - Page 32
+merger, it is crucial to maintain flexibility. This principle advocates for using technology solutions
+that are adaptable and not bound to a single vendor or specific technology. This ensures that the
+enterprise can integrate various technological components from both organizations and evolve
+with minimal constraints.
+These principles align well with TOGAF's broader recommendations for guiding architectural
+changes, as found in Section 2.6 of the TOGAF ADM Techniques. They ensure that the EA practice
+is aligned with business objectives while maintaining flexibility, data integrity, and a focus on
+enterprise-wide benefits. These guiding principles are critical for the successful execution of the
+integration and adoption of new technologies while achieving cost efficiencies and improving
+service delivery.
+For reference, TOGAF's ADM Techniques highlight the importance of architectural principles in
+guiding transformational initiatives, ensuring that decisions are made consistently across the
+enterprise. Each principle supports organizational agility, system integration, and the efficient
+use of technology resources, all of which are vital for the enterprise's stated objectives.
+Free The Open Group OGEA-103 Exam Questions By Johnston - Page 33

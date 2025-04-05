@@ -472,5 +472,834 @@
       ],
       "answer": "ABBs describe capability requirements while SBBs define how to implement them",
       "type": "multiple-choice"
+    },
+    {
+      "id": 41,
+      "question": "What document is sent from the sponsoring organization to the architecture organization to trigger the start of an ADM cycle?",
+      "options": [
+        "A. Architecture Contract",
+        "B. Architecture Definition Document",
+        "C. Architecture Vision",
+        "D. Request for Architecture Work",
+        "E. Statement of Architecture Work"
+      ],
+      "answer": "D. Request for Architecture Work",
+      "type": "multiple-choice"
+    },
+    {
+      "id": 42,
+      "question": "According to TOGAF, which of the following best describes Architecture Governance?",
+      "options": [
+        "A. A categorization mechanism for architecture and solution artifacts",
+        "B. A framework for operational and change activity",
+        "C. A method for designing an information system in terms of a set of building blocks",
+        "D. The lifecycle management of information and related technology used by an organization",
+        "E. The practice by which enterprise architectures are controlled at an enterprise-wide level"
+      ],
+      "answer": "E. The practice by which enterprise architectures are controlled at an enterprise-wide level",
+      "type": "multiple-choice"
+    },
+    {
+      "id": 43,
+      "question": "Which component within the Architecture Repository holds best practice or template materials that can be used to construct architectures?",
+      "options": [
+        "A. Architecture Capability",
+        "B. Architecture Landscape",
+        "C. Architecture Metamodel",
+        "D. Governance Log",
+        "E. Reference Library"
+      ],
+      "answer": "E. Reference Library",
+      "type": "multiple-choice"
+    },
+    {
+      "id": 44,
+      "question": "According to TOGAF, all the following are responsibilities of an Architecture Board, except ______________________.",
+      "options": [
+        "A. Allocating resources for architecture projects",
+        "B. Decision making for changes in the architecture",
+        "C. Enforcing Architecture Compliance",
+        "D. Improving the maturity of the organization's architecture discipline",
+        "E. Production of governance materials"
+      ],
+      "answer": "A. Allocating resources for architecture projects",
+      "type": "multiple-choice"
+    },
+    {
+      "id": 45,
+      "question": "According to TOGAF, which of the following best describes the purpose of a Compliance Assessment?",
+      "options": [
+        "A. To ensure that architecture information is communicated to the right stakeholders at the right time",
+        "B. To govern the architecture throughout its implementation process",
+        "C. To provide a high-level view of the end architecture product",
+        "D. To show progression of change from the Baseline Architecture to the Target Architecture"
+      ],
+      "answer": "D. To show progression of change from the Baseline Architecture to the Target Architecture",
+      "type": "multiple-choice"
+    },
+    {
+      "id": 46,
+      "question": "Which of the following describes a key objective of the Technology Architecture Phase?",
+      "options": [
+        "A. To define the solution architecture needed to support the Application Architecture",
+        "B. To define technology components into a set of technology platforms",
+        "C. To define the Transition Architectures needed to achieve the Target Architecture",
+        "D. To develop a migration plan to deliver incremental capabilities",
+        "E. To select a set of technology products that will form the basis of a solution architecture"
+      ],
+      "answer": "B. To define technology components into a set of technology platforms",
+      "type": "multiple-choice"
+    },
+    {
+      "id": 47,
+      "question": "Which one of the following statements best describes why the ADM should be adapted?",
+      "options": [
+        "A. To align it closer to the business",
+        "B. To make the use more realistic",
+        "C. To move through the cycle faster",
+        "D. To suit the specific needs of the enterprise"
+      ],
+      "answer": "D. To suit the specific needs of the enterprise",
+      "type": "multiple-choice"
+    },
+    {
+      "id": 48,
+      "question": "In which phase of the TOGAF ADM are Gap Analysis results from earlier phases consolidated?",
+      "options": [
+        "A. Phase D",
+        "B. Phase E",
+        "C. Phase F",
+        "D. Phase G",
+        "E. Phase H"
+      ],
+      "answer": "B. Phase E",
+      "type": "multiple-choice"
+    },
+    {
+      "id": 49,
+      "question": "Which of the following best describes the purpose of a business scenario?",
+      "options": [
+        "A. To define and plan an enterprise architecture transformation based on Capability-Based Planning",
+        "B. To develop a set of general rules and guidelines for the architecture being developed",
+        "C. To develop a set of security guidelines for the architecture being developed",
+        "D. To help identify and understand the business requirements that an architecture must address",
+        "E. To identify and mitigate the risks when implementing an architecture project"
+      ],
+      "answer": "D. To help identify and understand the business requirements that an architecture must address",
+      "type": "multiple-choice"
+    },
+    {
+      "id": 50,
+      "question": "According to TOGAF, which of the following best describes the classification of architectural change in the case where multiple server systems are being consolidated to a single system?",
+      "options": [
+        "A. A bottom-up change to enhance operational capability",
+        "B. An incremental change handled via change management techniques",
+        "C. A re-architecting change that puts the whole architecture through an ADM cycle",
+        "D. A revision change of the enterprise architecture",
+        "E. A simplification change handled via change management techniques"
+      ],
+      "answer": "E. A simplification change handled via change management techniques",
+      "type": "multiple-choice"
+    },
+    {
+      "id": 51,
+      "question": "Which of the following TOGAF components was created to enable architects to design architectures addressing Boundaryless Information Flow?",
+      "options": [
+        "A. The Architecture Repository",
+        "B. The Enterprise Continuum",
+        "C. The Integrated Information Infrastructure Model",
+        "D. The TOGAF Technical Reference Model"
+      ],
+      "answer": "C. The Integrated Information Infrastructure Model",
+      "type": "multiple-choice"
+    },
+    {
+      "id": 52,
+      "question": "Which of the following best describes the TOGAF Technical Reference Model?",
+      "options": [
+        "A. It is a detailed data model that can be tailored to specific industries",
+        "B. It is an example of a Common Systems Architecture",
+        "C. It is a fundamental architecture upon which more specific architectures can be based",
+        "D. It is a model of application components and application services software, including brokering applications"
+      ],
+      "answer": "C. It is a fundamental architecture upon which more specific architectures can be based",
+      "type": "multiple-choice"
+    },
+    {
+      "id": 53,
+      "question": "Which one of the following statements about the structure of the TOGAF 9 document is true?",
+      "options": [
+        "A. Part I, the Enterprise Continuum, describes a model for structuring a virtual repository",
+        "B. Part II, the Architecture Development Method, describes the definitions of terms used in TOGAF, and the changes between versions of TOGAF",
+        "C. Part III, Tools and Support, describes a collection of guidelines and techniques used in the other parts of TOGAF",
+        "D. Part VI, TOGAF Reference Models, includes a model for release management of the TOGAF specification",
+        "E. Part VII, the Architecture Capability Framework, describes processes and skills to establish an enterprise function"
+      ],
+      "answer": "E. Part VII, the Architecture Capability Framework, describes processes and skills to establish an enterprise function",
+      "type": "multiple-choice"
+    },
+    {
+      "id": 54,
+      "question": "Which phase of the ADM ensures that implementation projects conform to the defined architecture?",
+      "options": [
+        "A. Requirements Management",
+        "B. Phase D",
+        "C. Phase F",
+        "D. Phase G",
+        "E. Phase H"
+      ],
+      "answer": "D. Phase G",
+      "type": "multiple-choice"
+    },
+    {
+      "id": 55,
+      "question": "The Requirements Management Phase _____________________.",
+      "options": [
+        "A. addresses and resolves requirements between ADM phases",
+        "B. is a central process that prioritizes requirements for all ADM phases",
+        "C. is used to dispose of resolved requirements for all ADM phases",
+        "D. generates new requirements and passes them to all ADM phases",
+        "E. stores requirements and manages their flow into relevant ADM phases"
+      ],
+      "answer": "E. stores requirements and manages their flow into relevant ADM phases",
+      "type": "multiple-choice"
+    },
+    {
+      "id": 56,
+      "question": "Which one of the following is an objective of the Preliminary Phase of the ADM?",
+      "options": [
+        "A. To define the Baseline Architecture for this cycle of the ADM",
+        "B. To define the application systems for the Target Architecture",
+        "C. To define the framework and methodologies to be used",
+        "D. To define the relevant stakeholders and their concerns",
+        "E. To define and prioritise work packages"
+      ],
+      "answer": "C. To define the framework and methodologies to be used",
+      "type": "multiple-choice"
+    },
+    {
+      "id": 57,
+      "question": "According to TOGAF, when creating views for a particular architecture, what is the recommended first step?",
+      "options": [
+        "A. Design a viewpoint to address all stakeholder concerns",
+        "B. Develop views for the target architecture first",
+        "C. Ensure completeness of the architecture",
+        "D. Refer to existing libraries of viewpoints, to identify one for re-use"
+      ],
+      "answer": "D. Refer to existing libraries of viewpoints, to identify one for re-use",
+      "type": "multiple-choice"
+    },
+    {
+      "id": 58,
+      "question": "Which of the following architectures in the Architecture Continuum contains the most re-usable architecture elements?",
+      "options": [
+        "A. Common Systems Architectures",
+        "B. Foundation Architectures",
+        "C. Industry Architectures",
+        "D. Organization-Specific Architectures"
+      ],
+      "answer": "B. Foundation Architectures",
+      "type": "multiple-choice"
+    },
+    {
+      "id": 59,
+      "question": "Which of the following describes the Architecture Vision document?",
+      "options": [
+        "A. A description of individual change increments showing progression from the baseline to target architecture",
+        "B. A detailed schedule for implementation of the target architecture",
+        "C. A high level description of the baseline and target architectures",
+        "D. A joint agreement between the development team and sponsor on the deliverables and quality of an architecture",
+        "E. A set of rules and guidelines to support fulfilling the mission of the organization"
+      ],
+      "answer": "C. A high level description of the baseline and target architectures",
+      "type": "multiple-choice"
+    },
+    {
+      "id": 60,
+      "question": "According to TOGAF, which of the following best describes how the Enterprise Continuum is used in organizing and developing an architecture?",
+      "options": [
+        "A. It is used to coordinate with the other management frameworks in use",
+        "B. It is used to describe how an architecture addresses stakeholder concerns",
+        "C. It is used to identify and understand business requirements",
+        "D. It is used to provide a system for continuous monitoring",
+        "E. It is used to structure re-usable architecture and solution assets"
+      ],
+      "answer": "E. It is used to structure re-usable architecture and solution assets",
+      "type": "multiple-choice"
+    },
+    {
+      "id": 61,
+      "question": "Which of the following statements best describes the purpose of enterprise architecture?",
+      "options": [
+        "A. To allow an enterprise to exploit the latest trends in technology",
+        "B. To enable the CIO to take effective control of the business units across an enterprise",
+        "C. To ensure compliance in an enterprise to corporate auditing standards",
+        "D. To optimise an enterprise into an environment that is responsive to business needs",
+        "E. To provide a set of standards that all actors must adhere to within an enterprise"
+      ],
+      "answer": "D. To optimise an enterprise into an environment that is responsive to business needs",
+      "type": "multiple-choice"
+    },
+    {
+      "id": 62,
+      "question": "Which of the following statements best describes how Architecture Principles are used within the ADM?",
+      "options": [
+        "A. They are used to define the framework and detailed methodologies",
+        "B. They are used to define stakeholders and their concerns",
+        "C. They are used to determine the readiness factors impacting the organization",
+        "D. They are used to guide decision making within the enterprise",
+        "E. They are used to resolve and dispose of requirements"
+      ],
+      "answer": "D. They are used to guide decision making within the enterprise",
+      "type": "multiple-choice"
+    },
+    {
+      "id": 63,
+      "question": "Which of the following statements about TOGAF Building Blocks and their use in the ADM cycle is correct?",
+      "options": [
+        "A. Building Blocks become more implementation-specific in Phase E",
+        "B. Building Blocks in phases D, E and F are evolved to a common pattern of steps",
+        "C. Building Blocks should be identified in abstract form as part of the Preliminary Phase",
+        "D. Building Blocks should be first selected in Phase D"
+      ],
+      "answer": "A. Building Blocks become more implementation-specific in Phase E",
+      "type": "multiple-choice"
+    },
+    {
+      "id": 64,
+      "question": "Which one of the following is an objective of Phase A of the TOGAF ADM?",
+      "options": [
+        "A. To allocate the resources needed to implement the architecture project",
+        "B. To define the framework that is going to be used to develop the enterprise architecture",
+        "C. To define an IT Strategy that maps out the technology infrastructure",
+        "D. To prepare a Solution Architecture for the enterprise",
+        "E. To secure formal approval to proceed"
+      ],
+      "answer": "E. To secure formal approval to proceed",
+      "type": "multiple-choice"
+    },
+    {
+      "id": 65,
+      "question": "TOGAF 9 Part III provides a set of resources that can be used to adapt and modify the ____________.",
+      "options": [
+        "A. Architecture Capability",
+        "B. Architecture Development Method",
+        "C. Architecture Landscape",
+        "D. Architecture Repository",
+        "E. Enterprise Continuum"
+      ],
+      "answer": "B. Architecture Development Method",
+      "type": "multiple-choice"
+    },
+    {
+      "id": 66,
+      "question": "Which of the following best describes how TOGAF defines an enterprise?",
+      "options": [
+        "A. Any collection of organizations that has a common set of goals",
+        "B. Any corporation with more than 10,000 employees",
+        "C. Any organization involved in commerce",
+        "D. Any organization whose stock is traded",
+        "E. Any set of organizations based at the same geographic location"
+      ],
+      "answer": "A. Any collection of organizations that has a common set of goals",
+      "type": "multiple-choice"
+    },
+    {
+      "id": 67,
+      "question": "Which of the following is an objective of Phase B, Business Architecture?",
+      "options": [
+        "A. To confirm the ability of the enterprise to undergo change",
+        "B. To demonstrate how stakeholder concerns are addressed in the Business Architecture",
+        "C. To develop a Target Technology Architecture to support the business",
+        "D. To finalize the Architecture Vision and Architecture Definition documents",
+        "E. To maximize the business value from the architecture"
+      ],
+      "answer": "B. To demonstrate how stakeholder concerns are addressed in the Business Architecture",
+      "type": "multiple-choice"
+    },
+    {
+      "id": 68,
+      "question": "Which section of the TOGAF template for Architecture Principles should highlight the business benefits for adhering to the principle?",
+      "options": [
+        "A. Implications",
+        "B. Name",
+        "C. Rationale",
+        "D. Statement"
+      ],
+      "answer": "C. Rationale",
+      "type": "multiple-choice"
+    },
+    {
+      "id": 69,
+      "question": "Which of the following is defined by TOGAF as a representation of a system from the perspective of a related set of concerns?",
+      "options": [
+        "A. Architecture Building Block",
+        "B. Capability Architecture",
+        "C. Statement of Work",
+        "D. View",
+        "E. Viewpoint"
+      ],
+      "answer": "D. View",
+      "type": "multiple-choice"
+    },
+    {
+      "id": 70,
+      "question": "The TOGAF Architecture Governance Framework includes ________________.",
+      "options": [
+        "A. a list of responsibilities for running an Architecture Board",
+        "B. a model for governance including process, content and context",
+        "C. guidance for establishing an Architecture Capability using the ADM",
+        "D. the Architecture Compliance review process and checklists"
+      ],
+      "answer": "B. a model for governance including process, content and context",
+      "type": "multiple-choice"
+    },
+    {
+      "id": 71,
+      "question": "In the Solutions Continuum, which of the following is the correct order of solutions ranging from generic solution to enterprise specific solution?",
+      "options": [
+        "A. Foundation, Common Systems, Industry, Organization-Specific",
+        "B. Industry, Foundation, Common Systems, Organization-Specific",
+        "C. Organization-Specific, Industry, Common Systems, Foundation",
+        "D. Organization-Specific, Industry, Foundation, Common Systems"
+      ],
+      "answer": "A. Foundation, Common Systems, Industry, Organization-Specific",
+      "type": "multiple-choice"
+    },
+    {
+      "id": 72,
+      "question": "Which one of the following best describes the purpose of ADM Phase E?",
+      "options": [
+        "A. To define the initial implementation plans",
+        "B. To define the scope, identifying stakeholders and obtaining approvals",
+        "C. To develop the Technology Architecture",
+        "D. To manage requirements throughout the ADM",
+        "E. To perform architectural oversight for the implementation"
+      ],
+      "answer": "A. To define the initial implementation plans",
+      "type": "multiple-choice"
+    },
+    {
+      "id": 73,
+      "question": "Which one of the following statements about TOGAF Building Blocks is true?",
+      "options": [
+        "A. Building blocks at a functional level are known as Solutions Building Blocks",
+        "B. Solutions Building Blocks are selected in Phases A, B, C and D",
+        "C. The specification of a building block should be loosely coupled to its implementation",
+        "D. The gap analysis technique should be used to identify building blocks for re-use"
+      ],
+      "answer": "C. The specification of a building block should be loosely coupled to its implementation",
+      "type": "multiple-choice"
+    },
+    {
+      "id": 74,
+      "question": "What part of the Architecture Repository shows the building blocks that are currently in use within the organization?",
+      "options": [
+        "A. Architecture Landscape",
+        "B. Architecture Metamodel",
+        "C. Governance Log",
+        "D. Reference Library",
+        "E. Standards Information Base"
+      ],
+      "answer": "A. Architecture Landscape",
+      "type": "multiple-choice"
+    },
+    {
+      "id": 75,
+      "question": "Which one of the following is responsible for the acceptance and sign-off of an Architecture Compliance review?",
+      "options": [
+        "A. Architecture Board",
+        "B. Architecture Review Co-ordinator",
+        "C. CIO",
+        "D. Lead Enterprise Architect",
+        "E. Project Leader"
+      ],
+      "answer": "A. Architecture Board",
+      "type": "multiple-choice"
+    },
+    {
+      "id": 76,
+      "question": "According to TOGAF, in which phase of the ADM should an initial assessment of business transformation readiness occur?",
+      "options": [
+        "A. Preliminary Phase",
+        "B. Phase A",
+        "C. Phase B",
+        "D. Phase F",
+        "E. Phase G"
+      ],
+      "answer": "B. Phase A",
+      "type": "multiple-choice"
+    },
+    {
+      "id": 77,
+      "question": "A gap analysis will enable the architect to do all of the following except _____.",
+      "options": [
+        "A. identify building blocks that have been inadvertently omitted",
+        "B. identify building blocks that have been intentionally eliminated",
+        "C. identify building blocks to be carried over",
+        "D. identify new building blocks that are needed",
+        "E. identify potential vendors to provide new building blocks"
+      ],
+      "answer": "E. identify potential vendors to provide new building blocks",
+      "type": "multiple-choice"
+    },
+    {
+      "id": 78,
+      "question": "Which of the following best describes an approach for adapting the ADM in the situation where the business case for doing architecture is not well recognized?",
+      "options": [
+        "A. Completion of the Business Architecture should follow the Information Systems Architecture",
+        "B. Create an Architecture Vision and then a detailed Business Architecture",
+        "C. Produce a \"cut-down\" version of the ADM suitable to the resources available",
+        "D. Tailor the ADM in conjunction with another architecture framework that has deliverables specific to the vertical sector",
+        "E. Tailor the ADM to reflect the relationships with, and dependencies on other management processes within the organization"
+      ],
+      "answer": "B. Create an Architecture Vision and then a detailed Business Architecture",
+      "type": "multiple-choice"
+    },
+    {
+      "id": 79,
+      "question": "What technique does TOGAF recommend for evaluating the status of an organization to undergo change?",
+      "options": [
+        "A. Business Transformation Readiness Assessment",
+        "B. Business Value Assessment Technique",
+        "C. Capability-Based Planning",
+        "D. Communications and Stakeholder Management",
+        "E. Gap Analysis"
+      ],
+      "answer": "A. Business Transformation Readiness Assessment",
+      "type": "multiple-choice"
+    },
+    {
+      "id": 80,
+      "question": "Which of the following best describes the meaning of \"Initial Level of Risk\" in Risk Management?",
+      "options": [
+        "A. The categorization after implementation of mitigating actions",
+        "B. The categorization after initial risk assessment",
+        "C. The categorization after mitigation and residual risk assessment",
+        "D. The categorization before determining and implementing mitigating actions",
+        "E. The categorization before risk identification"
+      ],
+      "answer": "D. The categorization before determining and implementing mitigating actions",
+      "type": "multiple-choice"
+    },
+    {
+      "id": 81,
+      "question": "According to TOGAF, a view is used to describe how the _____ of a stakeholder are being met.",
+      "options": [
+        "A. concerns",
+        "B. constraints",
+        "C. interests",
+        "D. perspective",
+        "E. requirements"
+      ],
+      "answer": "A. concerns",
+      "type": "multiple-choice"
+    },
+    {
+      "id": 82,
+      "question": "The Architecture Development Method produces content to be stored in the Repository, which is classified according to the __________________.",
+      "options": [
+        "A. ADM Guidelines and Techniques",
+        "B. Architecture Capability Framework",
+        "C. Architecture Capability Model",
+        "D. Enterprise Continuum",
+        "E. Standards Information Base"
+      ],
+      "answer": "D. Enterprise Continuum",
+      "type": "multiple-choice"
+    },
+    {
+      "id": 83,
+      "question": "Which of the following best describes the state of architecture artifacts as a project progresses through ADM Phases A to D?",
+      "options": [
+        "A. The artifacts are transformed into solution architectures",
+        "B. The artifacts become increasingly product focused",
+        "C. The artifacts become increasingly generic and re-usable",
+        "D. The artifacts evolve from generic architectures to organization-specific architectures",
+        "E. The artifacts evolve from common systems architectures to foundation architectures"
+      ],
+      "answer": "B. The artifacts become increasingly product focused",
+      "type": "multiple-choice"
+    },
+    {
+      "id": 84,
+      "question": "Which of the following describes the Phase H classification for an Incremental change?",
+      "options": [
+        "A. A change driven by a requirement to derive additional value from the existing investment",
+        "B. A change driven by a requirement to increase investment in order to create new value for exploitation",
+        "C. A change driven by a requirement to reduce investment",
+        "D. A change driven by a requirement to re-align with the business strategy"
+      ],
+      "answer": "A. A change driven by a requirement to derive additional value from the existing investment",
+      "type": "multiple-choice"
+    },
+    {
+      "id": 85,
+      "question": "Which one of the following statements about viewpoints is correct?",
+      "options": [
+        "A. A viewpoint is always specific to an architecture",
+        "B. A viewpoint is used to create views in Phases E and F",
+        "C. A viewpoint is used as a template to create a view",
+        "D. A viewpoint is what a stakeholder sees"
+      ],
+      "answer": "C. A viewpoint is used as a template to create a view",
+      "type": "multiple-choice"
+    },
+    {
+      "id": 86,
+      "question": "According to TOGAF, in which sequence should Application Architecture and Data Architecture be developed in Phase C?",
+      "options": [
+        "A. Application Architecture should be developed first, then Data Architecture",
+        "B. Application Architecture should be developed concurrently with Data Architecture",
+        "C. Data Architecture should be developed first, then Application Architecture",
+        "D. Application Architecture and Data Architecture may be developed in either sequence"
+      ],
+      "answer": "D. Application Architecture and Data Architecture may be developed in either sequence",
+      "type": "multiple-choice"
+    },
+    {
+      "id": 87,
+      "question": "Which of the following best completes the sentence? The Architecture Repository __________________.",
+      "options": [
+        "A. is used to store different classes of architectural output created by the ADM",
+        "B. is a categorisation mechanism for classifying architecture and solution artifacts",
+        "C. is a detailed model of architectural work products, including deliverables and artifacts",
+        "D. is an architecture of generic functions and services",
+        "E. is a set of resources to help establish an architecture capability within an organization"
+      ],
+      "answer": "A. is used to store different classes of architectural output created by the ADM",
+      "type": "multiple-choice"
+    },
+    {
+      "id": 88,
+      "question": "What level of the Architecture Landscape provides a long-term summary view of the entire enterprise?",
+      "options": [
+        "A. Capability Architecture",
+        "B. Operational Architecture",
+        "C. Segment Architecture",
+        "D. Strategic Architecture",
+        "E. Tactical Architecture"
+      ],
+      "answer": "D. Strategic Architecture",
+      "type": "multiple-choice"
+    },
+    {
+      "id": 89,
+      "question": "A key step in validating a proposed target architecture is to consider what may have been forgotten. What technique does TOGAF recommend to address this issue?",
+      "options": [
+        "A. Business Transformation Readiness Assessment",
+        "B. Business Value Assessment Technique",
+        "C. Capability-Based Planning",
+        "D. Communications and Stakeholder Management",
+        "E. Gap Analysis"
+      ],
+      "answer": "E. Gap Analysis",
+      "type": "multiple-choice"
+    },
+    {
+      "id": 90,
+      "question": "In the Preliminary Phase, all of the following are part of preparing the organization to undertake successful enterprise architecture, except __________.",
+      "options": [
+        "A. defining architecture principles",
+        "B. defining relationships between management frameworks",
+        "C. defining the enterprise",
+        "D. evaluating the enterprise architecture maturity",
+        "E. identifying stakeholders and their concerns"
+      ],
+      "answer": "E. identifying stakeholders and their concerns",
+      "type": "multiple-choice"
+    },
+    {
+      "id": 91,
+      "question": "In the Solutions Continuum, which of the following is the correct order of solutions ranging from generic solution to enterprise specific solution?",
+      "options": [
+        "A. Foundation, Common Systems, Industry, Organization-Specific", 
+        "B. Industry, Foundation, Common Systems, Organization-Specific",
+        "C. Organization-Specific, Industry, Common Systems, Foundation", 
+        "D. Organization-Specific, Industry, Foundation, Common Systems"
+      ],
+      "answer": "A. Foundation, Common Systems, Industry, Organization-Specific",
+      "type": "multiple-choice"
+    },
+    {
+      "id": 92,
+      "question": "Which one of the following best describes the purpose of ADM Phase E?",
+      "options": [
+        "A. To define the initial implementation plans",
+        "B. To define the scope, identifying stakeholders and obtaining approvals", 
+        "C. To develop the Technology Architecture",
+        "D. To manage requirements throughout the ADM",
+        "E. To perform architectural oversight for the implementation"
+      ],
+      "answer": "A. To define the initial implementation plans",
+      "type": "multiple-choice"
+    },
+    {
+      "id": 93,
+      "question": "Scenario: You are working as an Enterprise Architect at a global financial services company. The company is planning a major digital transformation initiative to modernize its legacy systems and improve customer experience across all channels. The CEO has asked for an enterprise architecture approach that will help break down silos between business units and create a more agile organization.\n\nThe company has multiple business units operating in different countries with their own IT systems and processes. Many of these systems are decades old and difficult to modify. Senior management is concerned about maintaining regulatory compliance during the transformation and minimizing disruption to ongoing operations.\n\nThe CIO has allocated budget for the initial architecture development and asked you to lead the effort. You need to establish a structured approach to develop an enterprise architecture that addresses the company's transformation goals while managing risks.\n\nBased on the TOGAF standard, which of the following approaches would be most appropriate?",
+      "options": [
+        "A. Begin by developing a detailed Technology Architecture that specifies all required system components. Present this to business stakeholders to gain their approval before proceeding with implementation planning.",
+        "B. Start with the Preliminary Phase to define the architecture capability, followed by developing an Architecture Vision that aligns with the company's strategic objectives. Engage key stakeholders early to address their concerns and establish appropriate governance.",
+        "C. Create a comprehensive set of solution building blocks first, then organize them into a strategic roadmap. Use this roadmap to communicate with business units about how systems will be integrated over time.",
+        "D. Focus on developing detailed business process models for each department, then identify technology solutions that can support these processes. This bottom-up approach will ensure all operational needs are met before addressing enterprise-wide concerns."
+      ],
+      "answer": "B. Start with the Preliminary Phase to define the architecture capability, followed by developing an Architecture Vision that aligns with the company's strategic objectives. Engage key stakeholders early to address their concerns and establish appropriate governance.",
+      "type": "scenario"
+    },
+    {
+      "id": 94,
+      "question": "Scenario: You are an Enterprise Architect working for a large hospital network that has recently merged with two smaller healthcare providers. The organization now faces challenges in integrating disparate electronic health record (EHR) systems, clinical applications, and administrative processes. Patient data is stored in different formats across multiple systems, making it difficult to provide coordinated care.\n\nThe Chief Medical Officer (CMO) has expressed concerns about patient safety due to incomplete medical histories, while the Chief Financial Officer (CFO) is worried about increased operational costs from maintaining multiple systems. The Board of Directors has approved a strategic initiative to create an integrated healthcare information system that provides a unified view of patient data while ensuring regulatory compliance with healthcare privacy laws.\n\nYou have been tasked with leading the architecture effort for this initiative. The CEO expects the architecture to address both immediate integration needs and provide a foundation for future digital health innovations.\n\nBased on the TOGAF standard, which approach would be most effective?",
+      "options": [
+        "A. Begin with detailed technical analysis of each existing EHR system, focusing first on database schema integration. Create a consolidated data model that all systems will migrate to over time.",
+        "B. Conduct a thorough Business Architecture analysis first, followed by Information Systems Architecture development. Create a comprehensive data architecture that includes data governance, interoperability standards, and security controls.",
+        "C. Start with stakeholder management, identifying key concerns from clinical, administrative, and IT perspectives. Develop an Architecture Vision that addresses these concerns, followed by a structured approach through the ADM to develop target architectures and a migration plan.",
+        "D. Focus primarily on the Technology Architecture, as the main challenge is technical integration. Once the technology platform is selected, business processes can be adapted to fit the chosen solution."
+      ],
+      "answer": "C. Start with stakeholder management, identifying key concerns from clinical, administrative, and IT perspectives. Develop an Architecture Vision that addresses these concerns, followed by a structured approach through the ADM to develop target architectures and a migration plan.",
+      "type": "scenario"
+    },
+    {
+      "id": 95,
+      "question": "Scenario: You are the Lead Enterprise Architect at a mid-sized retail company that is experiencing increasing competition from online retailers. The company operates 200 physical stores and has a basic e-commerce website. The CEO has initiated a digital transformation program to create an omnichannel retail experience where customers can seamlessly shop across physical stores, mobile apps, and the web.\n\nThe company's IT landscape consists of legacy retail management systems, a separate e-commerce platform, and various point solutions for marketing, inventory, and customer management. The CIO has highlighted that the current architecture cannot support real-time inventory visibility or personalized customer experiences across channels.\n\nBusiness executives are concerned about the cost and disruption of a major transformation. The VP of Store Operations is worried that focusing too much on digital channels might negatively impact the in-store experience, while the Chief Marketing Officer wants to quickly implement a new customer loyalty program across all channels.\n\nYou need to develop an enterprise architecture approach that balances these concerns while enabling the company's omnichannel strategy.\n\nBased on the TOGAF standard, which of the following is the most appropriate approach?",
+      "options": [
+        "A. Create a detailed Implementation and Migration Plan immediately, focusing on quick wins to demonstrate value. Start implementing new technologies in parallel with existing systems to minimize disruption.",
+        "B. Develop a Business Architecture first that redesigns all business processes to be digital-first. Once this is approved, select technology platforms that best support these new processes without regard to existing systems.",
+        "C. Identify and document all existing applications and infrastructure components. Then create a detailed Technology Architecture that replaces legacy systems with modern cloud-based solutions.",
+        "D. Use the Preliminary Phase to establish the architecture capability. Then develop an Architecture Vision that aligns with the omnichannel strategy, followed by iterative development of architectures across domains (business, data, application, technology) with consideration for transition architectures."
+      ],
+      "answer": "D. Use the Preliminary Phase to establish the architecture capability. Then develop an Architecture Vision that aligns with the omnichannel strategy, followed by iterative development of architectures across domains (business, data, application, technology) with consideration for transition architectures.",
+      "type": "scenario"
+    },
+    {
+      "id": 96,
+      "question": "Scenario: You are working as an Enterprise Architect within an Enterprise Architecture (EA) team at a large government agency. The agency has multiple divisions.\n\nThe agency has a well-established EA practice and follows the TOGAF standard as its method for architecture development. Along with the EA program, the agency also uses various management frameworks, including business planning, project/portfolio management, and operations management. The EA program is sponsored by the Chief Information Officer (CIO), who has actively promoted architecting with agility within the EA department as her preferred approach for projects.\n\nThe government has mandated that the agency prepare themselves for an Artificial Intelligence (AI)-first world, which they have called their ''AI-first'' plan. As a result, the agency is looking to determine the impact and role that AI will play moving forward. The CIO has approved a Request for Architecture Work to look at how AI can be used for services across the agency. She has noted that digital platforms will be a priority for investment in order to scale the AI applications planned. Using AI to automate tasks and make things run smoother is seen as a big advantage. Process automation and improved efficiency from manual, repetitive activities have been identified as the key benefits of applying generative AI to their agency's business. This will include back-office automation, for example, for help center agents who receive hundreds of email inquiries. This should also improve services for citizens by making them more efficient and personalized, tailored to each individual's needs.\n\nMany of the agency leaders are worried about relying too much on AI. Some leaders think their employees will need to learn new skills. Some employees are worried they might lose their jobs to AI. Other leaders worry about security and cyber resilience in the digital platforms needed for AI to be successful.\n\nThe leader of the Enterprise Architecture team has asked for your suggestions on how to address the concerns, and how to manage the risks of a new architecture for the AI-first project.\n\nBased on the TOGAF standard, which of the following is the best answer?",
+      "options": [
+        "A. You recommend creating an Organization Map to display the links between different parts of the agency. This will help the EA team to find and involve all areas of the agency impacted by this strategic change. Multiple business models should then be created that can be applied to AI-related projects. A meeting will be held with the stakeholders to teach them how to interpret the models and see how their concerns are being addressed. Risk will be managed as part of the Security Architecture development.",
+        "B. You recommend that the key stakeholders be formally identified. This should include those who will be most helpful for the change to be successful. A Communication Plan should be made to address their needs. This plan should include a report that summarizes the key features of the architecture based on stakeholder requirements and addressing concerns. You communicate with each key stakeholder to make sure their concerns are being addressed. You make sure that the architecture being developed clearly addresses risk management.",
+        "C. You recommend conducting an analysis of the stakeholders. This involves documenting the positions, concerns, issues, and cultural factors of each group. This information will shape how the architecture is to be presented and communicated. The concerns and relevant views can then be defined for each group and recorded in the Architecture Vision document. The requirements for addressing risk should be recorded in the Architecture Requirements Specification and checked through regular assessments and feedback.",
+        "D. You recommend conducting an analysis that separates the different types of stakeholders into groups. They can be divided into categories: corporate functions, end-user organization, project team, external vendors, and external partners. A model will be developed for each stakeholder category to ensure that all the necessary information and actions are taken into account. Meetings will be arranged with stakeholders to verify that their concerns have been adequately addressed. Risk management will be included in this process."
+      ],
+      "answer": "C. You recommend conducting an analysis of the stakeholders. This involves documenting the positions, concerns, issues, and cultural factors of each group. This information will shape how the architecture is to be presented and communicated. The concerns and relevant views can then be defined for each group and recorded in the Architecture Vision document. The requirements for addressing risk should be recorded in the Architecture Requirements Specification and checked through regular assessments and feedback.",
+      "type": "scenario"
+    },
+    {
+      "id": 97,
+      "question": "Scenario: You are an Enterprise Architect working for a multinational manufacturing company. The company has grown through acquisitions over the past decade, resulting in a highly fragmented IT landscape with duplicated systems, inconsistent data definitions, and inefficient business processes across different regions.\n\nThe CEO has launched a business transformation program aimed at standardizing operations globally to reduce costs and improve agility. A key component of this program is implementing a global ERP system to replace numerous legacy applications. The CIO has asked you to lead the architecture effort for this initiative.\n\nMany regional business leaders are resistant to changing their established processes. The CFO is concerned about the high cost and risk of a global implementation. Manufacturing plant managers worry that standardization could reduce their ability to respond to local market conditions, while IT teams in various regions fear loss of control and potentially their jobs.\n\nYou need to develop an architectural approach that addresses these challenges while supporting the global standardization goals.\n\nBased on the TOGAF standard, which of the following approaches would be most effective?",
+      "options": [
+        "A. Focus primarily on defining a detailed target Technical Architecture that specifies the new ERP system components. This will provide clarity on the end state and avoid confusion during implementation.",
+        "B. Conduct a comprehensive stakeholder analysis to understand concerns across regions. Document how these concerns will be addressed in the Architecture Vision. Use a capability-based planning approach to identify which business capabilities should be global versus local, and reflect this in the Business and Information Systems architectures.",
+        "C. Recommend that each region develop its own local architecture based on a common template. These architectures can then be consolidated into a federation that allows for regional variation while maintaining some global standards.",
+        "D. Create a solution architecture for the ERP implementation first, focusing on the technical requirements. Once this is approved, communicate it to the business stakeholders to prepare them for the coming changes."
+      ],
+      "answer": "B. Conduct a comprehensive stakeholder analysis to understand concerns across regions. Document how these concerns will be addressed in the Architecture Vision. Use a capability-based planning approach to identify which business capabilities should be global versus local, and reflect this in the Business and Information Systems architectures.",
+      "type": "scenario"
+    },
+    {
+      "id": 98,
+      "question": "Scenario: You are working as an Enterprise Architect within an Enterprise Architecture (EA) team at a large government agency with multiple divisions. The agency has a well-established EA practice and follows the TOGAF standard as its method for architecture development. The government has mandated that the agency prepare for an \"AI-first\" world. The agency wants to determine the impact and role of AI in its future services. The CIO has approved a Request for Architecture Work to explore the use of AI in services. Some leaders are concerned about reliance on AI, security, and employees' need to acquire new skills. The EA team leader seeks suggestions on managing the risks associated with a new architecture for the AI-first project. Based on the TOGAF standard, which of the following is the best answer?",
+      "options": [
+        "Conduct an analysis of stakeholders, documenting their concerns and recording them in the Architecture Vision document. Risks should be recorded in the Architecture Requirements Specification and reviewed regularly.",
+        "Identify key stakeholders and develop a Communication Plan that addresses their needs. Ensure the architecture addresses risk management and summarizes features of the architecture.",
+        "Separate stakeholders into groups and categorize them. Develop models for each group and verify that their concerns are addressed in Phase G, Implementation Governance.",
+        "Create an organization map to show the links between different agency parts. Hold a meeting to teach stakeholders to interpret the models. Manage risks as part of Security Architecture development."
+      ],
+      "answer": "Conduct an analysis of stakeholders, documenting their concerns and recording them in the Architecture Vision document. Risks should be recorded in the Architecture Requirements Specification and reviewed regularly.",
+      "type": "scenario"
+    },
+    {
+      "id": 99,
+      "question": "Scenario: You are working as an Enterprise Architect within an Enterprise Architecture (EA) team at a multinational energy company. The company is committed to becoming a net-zero emissions energy business by 2050. To achieve this, the company is focusing on shifting to renewable energy production and adopting eco-friendly practices. The EA team, which reports to the Chief Technical Officer (CTO), has been tasked with overseeing the transformation to make the company more effective through acquisitions. The company plans to fully integrate these acquisitions, including merging operations and systems. To address the integration challenges, the EA team leader wants to know how to manage risks and ensure that the company succeeds with the proposed changes. Based on the TOGAF Standard, which of the following is the best answer?",
+      "options": [
+        "The EA team should create a Business Scenario to fully describe the business problem that is being addressed by the transformation. Once requirements are identified, they should be evaluated in terms of risks. Any residual risks should be escalated to the Architecture Board.",
+        "The EA team should develop Business Architecture views that demonstrate how stakeholder concerns are addressed and assess each factor for readiness, urgency, and degree of difficulty.",
+        "The EA team should evaluate the company's readiness for change by identifying factors that will impact the transformation. These factors will be used to determine initial risks associated with the initiative.",
+        "The EA team should document the risks associated with the transformation in an Implementation Factor Catalog to inform decisions during implementation and deployment."
+      ],
+      "answer": "The EA team should create a Business Scenario to fully describe the business problem that is being addressed by the transformation. Once requirements are identified, they should be evaluated in terms of risks. Any residual risks should be escalated to the Architecture Board.",
+      "type": "scenario"
+    },
+    {
+      "id": 100,
+      "question": "Scenario: You are working as an Enterprise Architect at a large company. The company runs many retail stores as well as an online marketplace that allows hundreds of brands to partner with the company. The company has a mature Enterprise Architecture (EA) practice and uses the TOGAF standard for its architecture development method. The EA practice is involved in all aspects of the business, with oversight provided by an Architecture Board with representatives from different parts of the business. The EA program is sponsored by the Chief Information Officer (CIO). Many of the stores remain open all day and night. Each store uses a standard method to track sales and inventory, which involves sending accurate, timely sales data to a central AI-based inventory management system that can predict demand, adjust stock levels, and automate reordering. The central inventory management system is housed at the company's central data center. The company has acquired a major rival. The Chief Executive Officer (CEO) believes that the merger will enable growth through combined offerings and cost savings. The decision has been made to fully integrate the two organizations, including merging retail operations and systems. Duplicated systems will be replaced with one standard retail management system. The CIO expects significant savings from these changes across the newly merged company. The rival company has successfully implemented the use of hand-held devices within stores for both customers and staff, which has increased satisfaction due to time savings. The CIO has approved the rollout of these devices to all stores but has stated that training should be brief, as there are many part-time employees. You have been asked to confirm the most relevant architecture principles for this transformation. Based on the TOGAF Standard, which of the following is the best answer?",
+      "options": [
+        "Common Vocabulary and Data Definitions, Compliance with the Law, Requirements Based Change, Responsive Change Management, Data Security",
+        "Control Technical Diversity, Interoperability, Data is an Asset, Data is Shared, Business Continuity",
+        "Common Use Applications, Data is an Asset, Data is Accessible, Ease of Use, Business Continuity",
+        "Maximize Benefit to the Enterprise, Common Use Applications, Data is an Asset, Responsive Change Management, Technology Independence"
+      ],
+      "answer": "Maximize Benefit to the Enterprise, Common Use Applications, Data is an Asset, Responsive Change Management, Technology Independence",
+      "type": "scenario"
+    },
+    {
+      "id": 101,
+      "question": "Scenario: You are working as an Enterprise Architect within the Enterprise Architecture (EA) team at a healthcare and life sciences company. The EA team is developing a secure system for researchers to share clinical trial information easily across the organization and with external partners. Due to the highly sensitive nature of the information, each architecture domain must consider privacy and safety concerns. The healthcare division has been directed to minimize disruptions to clinical trials while introducing the new system gradually. How would you identify the work packages for introducing the new system? Based on the TOGAF standard, which of the following is the best answer?",
+      "options": [
+        "Use a Consolidated Gaps, Solutions, and Dependencies Matrix to create work packages and sequence them into Capability Increments. Document in a Transition Architecture State Evolution Table.",
+        "Identify Solution Building Blocks for development or procurement, then use a CRUD matrix to rank and select the most cost-effective work packages. Schedule the rollout sequentially across regions.",
+        "Use a Consolidated Gaps, Solutions, and Dependencies Matrix to classify each solution, group them into work packages, then regroup into Capability Increments. Document in an Architecture Definition Increments Table.",
+        "Draw up an Implementation Factor Catalog to indicate actions and constraints. Use a Consolidated Gaps, Solutions, and Dependencies Matrix, then group similar activities into work packages and identify dependencies."
+      ],
+      "answer": "Use a Consolidated Gaps, Solutions, and Dependencies Matrix to classify each solution, group them into work packages, then regroup into Capability Increments. Document in an Architecture Definition Increments Table.",
+      "type": "scenario"
+    },
+    {
+      "id": 102,
+      "question": "Scenario: You are working as an Enterprise Architect within an Enterprise Architecture (EA) team at a large manufacturing company. The company has multiple divisions located worldwide. After a recent study, senior management is concerned about the impact of the company's multiple data centers and duplication of applications on business efficiency. To address this concern, a strategic architecture has been defined; it will help improve the ability to meet customer demand and improve the efficiency of operations. The strategic architecture involves the consolidation of multiple application programs that are currently used in different divisions and putting them all onto a cloud-based solution instead. Each division has completed the Architecture Definition documentation to meet its own specific operational requirements. The enterprise architects have analyzed the corporate changes and implementation constraints. A consolidated gap analysis has been completed. Based on its results, the architects have reviewed the requirements, dependencies, and interoperability requirements needed to integrate the cloud-based solution. The architects have completed the Business Transformation Readiness Assessment. Based on all these factors, they have produced a risk assessment. They have also completed the draft Implementation and Migration Plan, the draft Architecture Roadmap, and the Capability Assessment deliverables. Due to the risks of changing from the current environment, the decision has been taken that a gradual approach is needed to implement the target architecture. It will likely take a few years to complete the whole implementation process. The company has a mature Enterprise Architecture (EA) practice and uses the TOGAF standard for its architecture development method. The EA practice is engaged throughout all the divisions, with implementation governance assigned to a business line. In addition to providing guidance on using architecture frameworks, including business planning, project/portfolio management, and operations management, the EA program is sponsored by the Chief Information Officer (CIO). You have been asked to decide on the next steps for the migration planning. Based on the TOGAF standard, which of the following is the best answer?",
+      "options": [
+        "You update the Architecture Definition Document, which includes setting project objectives and documenting the final requirements. This will ensure that the architecture remains relevant and responsive to the needs of the enterprise. You then produce an Implementation Governance Model to manage the lessons learned prior to finalizing the Implementation and Migration Plan. You recommend that lessons learned be applied as changes to the architecture without review.",
+        "You conduct a series of Compliance Assessments to ensure that the architecture is being implemented according to the contract. The Compliance Assessment verifies that the implementation team is using the proper development methodology. It should include deployment of monitoring tools and ensure that performance targets are being met. If they are not met, then you would identify changes to performance requirements and update those in the Implementation and Migration Plan.",
+        "You examine how the Implementation and Migration Plan affects the other frameworks being used in the organization. You coordinate the planning with the business planning, project/portfolio management, and operations management frameworks. You assign a business value to each project, considering the available resources and how well they align with the strategy. You then update the architecture roadmap and the Implementation and Migration Plan.",
+        "You assess the business value for each project by applying the Business Value Assessment Technique. The assessment should focus on return on investment and performance evaluation criteria to prioritize the most progress of the architecture transformation. You confirm and plan a series of Transition Architecture phases using an Architecture Definition Increments Table. You document the lessons learned and generate the final Implementation and Migration Plan."
+      ],
+      "answer": "You examine how the Implementation and Migration Plan affects the other frameworks being used in the organization. You coordinate the planning with the business planning, project/portfolio management, and operations management frameworks. You assign a business value to each project, considering the available resources and how well they align with the strategy. You then update the architecture roadmap and the Implementation and Migration Plan.",
+      "type": "scenario"
+    },
+    {
+      "id": 103,
+      "question": "Scenario: You are working as an Enterprise Architect at a large supermarket. The company runs many retail stores, as well as an online grocery shop. Many of the stores used to remain open 24/7, but the number has decreased in recent years. Instead, they now focus on fulfilling online orders during the night. The company has a mature Enterprise Architecture (EA) practice and uses the TOGAF standard for its architecture development method. The EA practice is involved in all aspects of the business, with oversight provided by an Architecture Board with representatives from different parts of the business. The EA program is sponsored by the Chief Information Officer (CIO). Each store uses a standard method to track sales and inventory. This involves sending accurate timely sales data to a central Al-based inventory management system that can predict demand, adjust stock levels and automate reordering. The central inventory management system is housed at the company's central data center. The company has bought a major rival. The Chief Executive Officer believes that a merger will enable growth through combined offerings and cost savings. The decision has been taken to fully integrate the two organizations, including merging retail operations and systems. This means that duplicated systems will be replaced with one standard retail management system. Also, the company will reduce the number of applications that are used. The CIO expects significant savings will be achieved by implementing these changes across the newly merged company. One improvement that the rival has successfully implemented is the use of hand-held devices within stores, for both customers and staff. This has increased both customer and staff employee satisfaction due to the time savings this has brought. The CIO has given the go-ahead to roll out the devices in all stores but has stated that training on how to use the hand-held devices should be brief because there are a lot of employees, many of whom are part-time. The Request for Architecture Work to oversee the merger has been approved. The project has been scoped and you have been assigned to work on it. Your role includes managing the architecture for the retail stores. You have been asked to confirm the most relevant architecture principles for the transformation. Based on the TOGAF standard, which of the following is the best answer?",
+      "options": [
+        "Maximize Benefit to the Enterprise, Common Use Applications, Data is an Asset, Responsive Change Management, Technology Independence",
+        "Control Technical Diversity, Interoperability, Data is an Asset, Data is Shared, Business Continuity",
+        "Common Vocabulary and Data Definitions, Compliance with the Law, Requirements Based Change, Responsive Change Management, Data Security",
+        "Common Use Applications, Data is an Asset, Data is Accessible, Ease of Use, Business Continuity"
+      ],
+      "answer": "Maximize Benefit to the Enterprise, Common Use Applications, Data is an Asset, Responsive Change Management, Technology Independence",
+      "type": "scenario"
+    },
+    {
+      "id": 104,
+      "question": "Scenario: Your role is that of an Enterprise Architect, reporting to the Chief Enterprise Architect, at a technology company. The company uses the TOGAF standard as the method and guiding framework for its Enterprise Architecture (EA) practice. The Chief Technology Officer (CTO) is the sponsor of the activity. The EA practice uses an iterative approach for its architecture development. This has enabled the decision-makers to gain valuable insights into the different aspects of the business. The nature of the business is such that the data and the information stored on the company systems is the company's major asset and is highly confidential. The company employees travel a lot for work and need to communicate over public infrastructure. They use message encryption, secure internet connections using Virtual Private Networks (VPNs), and other standard security measures. The company has provided computer security awareness training for all its staff. However, despite good education and system security, there is still a need to rely on third-party suppliers for infrastructure and software. The Chief Security Officer (CSO) has noted an increase in ransomware (malicious software used in ransom demands) attacks on companies with a similar profile. The CSO recognizes that no matter how much is spent on education and support, the company could be a victim of a significant attack that could completely lock them out of their important data. A risk assessment has been completed, and the company has looked for cyber insurance that covers ransomware. The price for this insurance is very high. The CTO recently saw a survey that said 1 out of 4 businesses that paid ransoms could not get their data back, and almost the same number were able to recover the data without paying. The CTO has decided not to get cyber insurance to cover ransom payment. You have been asked to describe the steps you would take to strengthen the current architecture to improve data protection. Based on the TOGAF standard, which of the following is the best answer?",
+      "options": [
+        "You would ensure that the company has in place up-to-date processes for managing change to the current Enterprise Architecture. Based on the scope of the concerns raised, you recommend that this be managed at the infrastructure level. Changes should be made to the baseline description of the Technology Architecture. The changes should be approved by the Architecture Board and implemented by change management techniques.",
+        "You would request an Architecture Compliance Review with the scope to examine the company's ability to respond to ransomware attacks. You would identify the departments involved and have them nominate representatives. You would then tailor checklists to address the requirement for increased resilience. You would circulate to the nominated representatives for them to complete. You would then review the completed checklists, identifying and resolving issues. You would then determine and present your recommendations.",
+        "You would monitor for technology updates from your existing suppliers that could enhance the company's capabilities to detect, react, and recover from an IT security incident. You would prepare and run a disaster recovery planning exercise for a ransomware attack and analyze the performance of the current Enterprise Architecture. Using the findings, you would prepare a gap analysis of the current Enterprise Architecture. You would prepare change requests to address identified gaps. You would add the changes implemented to the Architecture Repository.",
+        "You would assess business continuity requirements and analyze the current Enterprise Architecture for gaps. You would recommend changes to address the situation and create a change request. You would engage the Architecture Board to assess and approve the change request. Once approved, you would create a new Request for Architecture Work to begin an ADM cycle to implement the changes."
+      ],
+      "answer": "You would request an Architecture Compliance Review with the scope to examine the company's ability to respond to ransomware attacks. You would identify the departments involved and have them nominate representatives. You would then tailor checklists to address the requirement for increased resilience. You would circulate to the nominated representatives for them to complete. You would then review the completed checklists, identifying and resolving issues. You would then determine and present your recommendations.",
+      "type": "scenario"
+    },
+    {
+      "id": 105,
+      "question": "Scenario: You are working as an Enterprise Architect within an Enterprise Architecture (EA) team at a global company that sells consumer products. The company produces many products that buyers use and enjoy. The company has announced a major change to its products that will occur over a four-year period. This change includes the introduction of digital products and services. An architecture to support this strategy has been finished, along with a roadmap for a set of projects to implement this significant change. This will be a cross-functional effort between the product design and software teams. It is planned to be developed in phases. The company faces a challenge in presenting and providing access to different services through its products and digital platforms while ensuring compliance with data privacy laws. In some countries and regions, the data residency requirements mean that the company has to store certain data within the region where it is collected. As a result, the company's application portfolio and infrastructure must connect with various cloud services and data repositories in different countries. The EA team has inherited the architecture used by the current products, some of which can be carried over to the new products. The EA team has started to define which parts of the architecture to carry forward. Enough of the Business Architecture has been defined so that work can commence on the Information Systems and Technology Architectures. Those architectures need to be defined to support the key digital services that the company plans to provide. The company uses the TOGAF Standard as the foundation for its Enterprise Architecture framework, and architecture development follows the purpose-based EA Capability model outlined in the TOGAF Series Guide: A Practitioner's Approach to Developing Enterprise Architecture Following the TOGAF ADM. The EA team reports to the Chief Information Officer (CIO), who oversees the program. You have been asked how to decide and organize the work to deliver the requested architectures. Based on the TOGAF standard, which of the following is the best answer?",
+      "options": [
+        "You refer to the superior architecture for guidance. You review the projects identified, their dependencies, and synergies, then decide the sequence for starting the projects. You develop high-level architecture descriptions. For each project, you determine how much work is needed, identify reference architectures, and candidate building blocks. You identify the resource needs taking into account cost and value. You document the different options, risks, and ways to control them to enable feasibility analysis and trade-off with the stakeholders.",
+        "You look outside the company to study how other companies organize their data models and application portfolios. You create just enough architecture description for the Application, Data, and Technology Architectures to identify the different options. For each project, this includes identification of candidate architecture and solution building blocks. You then identify solution providers, perform a readiness assessment, and assess the viability and fitness of the solution options. You then write the draft Implementation and Migration plan.",
+        "You research leading data companies, using your findings to help in developing high-level Target Data, Application, and Technology Architectures. You review the Architecture Vision to determine the level of detail, time, and scope of the ADM cycle phases required for each project. You identify and estimate the cost of the main resources. You then prepare an Architecture Roadmap and request the Architecture Board to review the roadmap. You then start the project.",
+        "You commence an iteration of ADM Phase A, identifying the stakeholders and revising the Architecture Vision. You perform a Stakeholder Analysis and update the Stakeholder Map. You conduct workshops and interviews to reflect the stakeholders who are now the key drivers for the digital products and services. You coordinate with the CIO to ensure alignment with the overall roadmap and update the Implementation and Migration Plan accordingly."
+      ],
+      "answer": "You refer to the superior architecture for guidance. You review the projects identified, their dependencies, and synergies, then decide the sequence for starting the projects. You develop high-level architecture descriptions. For each project, you determine how much work is needed, identify reference architectures, and candidate building blocks. You identify the resource needs taking into account cost and value. You document the different options, risks, and ways to control them to enable feasibility analysis and trade-off with the stakeholders.",
+      "type": "scenario"
+    },
+    {
+      "id": 106,
+      "question": "Scenario: You are working as an Enterprise Architect within an Enterprise Architecture (EA) team at a large government agency. The agency has multiple divisions. The agency has a well-established EA practice and follows the TOGAF standard as its method for architecture development. Along with the EA program, the agency also uses various management frameworks, including business planning, project/portfolio management, and operations management. The EA program is sponsored by the Chief Information Officer (CIO), who has actively promoted architecting with agility within the EA department as her preferred approach for projects. The government has mandated that the agency prepare themselves for an Artificial Intelligence (AI)-first world, which they have called their ''AI-first'' plan. As a result, the agency is looking to determine the impact and role that AI will play moving forward. The CIO has approved a Request for Architecture Work to look at how AI can be used for services across the agency. She has noted that digital platforms will be a priority for investment in order to scale the AI applications planned. Using AI to automate tasks and make things run smoother is seen as a big advantage. Process automation and improved efficiency from manual, repetitive activities have been identified as the key benefits of applying generative AI to their agency's business. This will include back-office automation, for example, for help center agents who receive hundreds of email inquiries. This should also improve services for citizens by making them more efficient and personalized, tailored to each individual's needs. Many of the agency leaders are worried about relying too much on AI. Some leaders think their employees will need to learn new skills. Some employees are worried they might lose their jobs to AI. Other leaders worry about security and cyber resilience in the digital platforms needed for AI to be successful. The leader of the Enterprise Architecture team has asked for your suggestions on how to address the concerns, and how to manage the risks of a new architecture for the AI-first project. Based on the TOGAF standard, which of the following is the best answer?",
+      "options": [
+        "You recommend creating an Organization Map to display the links between different parts of the agency. This will help the EA team to find and involve all areas of the agency impacted by this strategic change. Multiple business models should then be created that can be applied to AI-related projects. A meeting will be held with the stakeholders to teach them how to interpret the models and see how their concerns are being addressed. Risk will be managed as part of the Security Architecture development.",
+        "You recommend that the key stakeholders be formally identified. This should include those who will be most helpful for the change to be successful. A Communication Plan should be made to address their needs. This plan should include a report that summarizes the key features of the architecture based on stakeholder requirements and addressing concerns. You communicate with each key stakeholder to make sure their concerns are being addressed. You make sure that the architecture being developed clearly addresses risk management.",
+        "You recommend conducting an analysis of the stakeholders. This involves documenting the positions, concerns, issues, and cultural factors of each group. This information will shape how the architecture is to be presented and communicated. The concerns and relevant views can then be defined for each group and recorded in the Architecture Vision document. The requirements for addressing risk should be recorded in the Architecture Requirements Specification and checked through regular assessments and feedback.",
+        "You recommend conducting an analysis that separates the different types of stakeholders into groups. They can be divided into categories: corporate functions, end-user organization, project team, external vendors, and external partners. A model will be developed for each stakeholder category to ensure that all the necessary information and actions are taken into account. Meetings will be arranged with stakeholders to verify that their concerns have been adequately addressed. Risk management will be included in this process."
+      ],
+      "answer": "You recommend conducting an analysis of the stakeholders. This involves documenting the positions, concerns, issues, and cultural factors of each group. This information will shape how the architecture is to be presented and communicated. The concerns and relevant views can then be defined for each group and recorded in the Architecture Vision document. The requirements for addressing risk should be recorded in the Architecture Requirements Specification and checked through regular assessments and feedback.",
+      "type": "scenario"
     }
 ]

@@ -1,0 +1,310 @@
+[
+  {
+    "provider": "Microsoft",
+    "exams": [
+      {
+        "name": "Microsoft Azure Fundamentals (AZ-900)",
+        "description": "Covers basic cloud concepts, Azure services, security, privacy, compliance, and trust."
+      },
+      {
+        "name": "Microsoft Azure Data Fundamentals (DP-900)",
+        "description": "Focuses on core database concepts in a cloud environment and basic skills in Azure data services."
+      },
+      {
+        "name": "Microsoft Azure AI Fundamentals (AI-900)",
+        "description": "Introduces artificial intelligence (AI) concepts and related Azure services."
+      },
+      {
+        "name": "Microsoft Security, Compliance, and Identity Fundamentals (SC-900)",
+        "description": "Provides a broad overview of security, compliance, and identity concepts and related Microsoft solutions."
+      },
+      {
+        "name": "Microsoft Power Platform Fundamentals (PL-900)",
+        "description": "Introduces the capabilities of the Microsoft Power Platform."
+      },
+      {
+        "name": "Microsoft 365 Fundamentals (MS-900)",
+        "description": "Covers the benefits and considerations of adopting cloud services and Microsoft 365."
+      },
+      {
+        "name": "Microsoft Dynamics 365 Fundamentals (CRM) (MB-910)",
+        "description": "Provides a broad introduction to the customer engagement apps of Dynamics 365."
+      },
+      {
+        "name": "Microsoft Dynamics 365 Fundamentals (ERP) (MB-920)",
+        "description": "Introduces the finance and operations capabilities of Dynamics 365."
+      },
+      {
+        "name": "Microsoft Azure Administrator Associate (AZ-104)",
+        "description": "For professionals who implement, manage, and monitor an organization’s Microsoft Azure environment."
+      },
+      {
+        "name": "Microsoft Azure Developer Associate (AZ-204)",
+        "description": "For developers who design, build, test, and maintain cloud solutions on Microsoft Azure."
+      },
+      {
+        "name": "Microsoft Azure Security Engineer Associate (AZ-500)",
+        "description": "For security engineers who implement, manage, and monitor security and compliance solutions in Microsoft Azure."
+      },
+      {
+        "name": "Microsoft Azure Data Engineer Associate (DP-203)",
+        "description": "For data engineers who design and implement data engineering solutions using Azure data services."
+      },
+      {
+        "name": "Microsoft Power BI Data Analyst Associate (PL-300)",
+        "description": "For professionals who enable businesses to maximize the value of their data assets using Microsoft Power BI."
+      },
+      {
+        "name": "Microsoft Dynamics 365 Sales Functional Consultant Associate (MB-210)",
+        "description": "Focuses on configuring and using Dynamics 365 Sales."
+      },
+      {
+        "name": "Microsoft Dynamics 365 Customer Service Functional Consultant Associate (MB-230)",
+        "description": "Focuses on configuring and using Dynamics 365 Customer Service."
+      },
+      {
+        "name": "Microsoft Dynamics 365 Field Service Functional Consultant Associate (MB-240)",
+        "description": "Focuses on configuring and using Dynamics 365 Field Service."
+      },
+      {
+        "name": "Microsoft Dynamics 365 Finance Functional Consultant Associate (MB-310)",
+        "description": "Focuses on configuring and using Dynamics 365 Finance."
+      },
+      {
+        "name": "Microsoft Dynamics 365 Supply Chain Management Functional Consultant Associate (MB-330)",
+        "description": "Focuses on configuring and using Dynamics 365 Supply Chain Management."
+      },
+      {
+        "name": "Microsoft 365 Teams Administrator Associate (MS-700)",
+        "description": "For IT professionals who manage and configure Microsoft Teams environments."
+      },
+      {
+        "name": "Microsoft 365 Security Administrator Associate (MS-500)",
+        "description": "For IT professionals who implement and manage security and compliance features in Microsoft 365."
+      },
+      {
+        "name": "Microsoft Azure Solutions Architect Expert (AZ-305)",
+        "description": "For individuals with expertise in designing and implementing solutions on Microsoft Azure."
+      },
+      {
+        "name": "Microsoft Azure DevOps Engineer Expert (AZ-400)",
+        "description": "For professionals who implement and manage DevOps practices in Azure."
+      },
+      {
+        "name": "Microsoft 365 Enterprise Administrator Expert (MS-102)",
+        "description": "For IT professionals who manage and administer a Microsoft 365 environment."
+      },
+      {
+        "name": "Microsoft Cybersecurity Architect Expert (SC-100)",
+        "description": "For experts in designing and evolving the cybersecurity strategy of an organization."
+      },
+      {
+        "name": "Microsoft Azure Virtual Desktop Specialty (AZ-140)",
+        "description": "Focuses on the skills needed to plan, implement, and manage Azure Virtual Desktop environments."
+      },
+      {
+        "name": "Microsoft Azure Cosmos DB Developer Specialty (DP-420)",
+        "description": "Validates skills in designing, implementing, and managing applications using Azure Cosmos DB."
+      },
+      {
+        "name": "Microsoft Dynamics 365 Customer Insights (Data) Specialty (MB-260)",
+        "description": "Focuses on implementing and using Dynamics 365 Customer Insights (Data)."
+      }
+    ]
+  },
+  {
+    "provider": "AWS",
+    "exams": [
+      {
+        "name": "AWS Certified Cloud Practitioner (CLF-C02)",
+        "description": "Provides a foundational understanding of AWS Cloud concepts and services."
+      },
+      {
+        "name": "AWS Certified Solutions Architect – Associate (SAA-C03)",
+        "description": "Demonstrates the ability to design and deploy scalable, highly available, and fault-tolerant systems on AWS."
+      },
+      {
+        "name": "AWS Certified Developer – Associate (DVA-C02)",
+        "description": "Validates the ability to develop, deploy, and debug cloud-based applications using AWS."
+      },
+      {
+        "name": "AWS Certified SysOps Administrator – Associate (SOA-C02)",
+        "description": "Demonstrates skills in deploying, managing, and operating scalable and highly available systems on AWS."
+      },
+      {
+        "name": "AWS Certified Data Engineer – Associate",
+        "description": "Validates expertise in key AWS data services and building data pipelines."
+      },
+      {
+        "name": "AWS Certified Solutions Architect – Professional (SAP-C02)",
+        "description": "Demonstrates advanced skills in designing complex and scalable applications on AWS."
+      },
+      {
+        "name": "AWS Certified DevOps Engineer – Professional (DOP-C02)",
+        "description": "Validates skills in provisioning, operating, and managing distributed application systems on AWS."
+      },
+      {
+        "name": "AWS Certified Advanced Networking – Specialty (ANS-C01)",
+        "description": "Validates expertise in designing and implementing advanced AWS networking solutions."
+      },
+      {
+        "name": "AWS Certified Security – Specialty (SCS-C01)",
+        "description": "Demonstrates expertise in securing the AWS environment and applications."
+      },
+      {
+        "name": "AWS Certified Machine Learning – Specialty (MLS-C01)",
+        "description": "Validates skills in building, training, tuning, and deploying machine learning models on AWS."
+      },
+      {
+        "name": "AWS Certified Data Analytics – Specialty (DAS-C01)",
+        "description": "Demonstrates expertise in using AWS data analytics services to design and build data lakes and analytics solutions."
+      },
+      {
+        "name": "AWS Certified Database – Specialty (DBS-C01)",
+        "description": "Validates skills in designing, deploying, and migrating database workloads to AWS databases."
+      },
+      {
+        "name": "AWS Certified SAP on AWS – Specialty (PAS-C01)",
+        "description": "Demonstrates expertise in deploying and managing SAP workloads on AWS."
+      },
+      {
+        "name": "AWS Certified AI Practitioner – Foundational (Beta)",
+        "description": "Provides an overview of AI, ML, and generative AI concepts and AWS services."
+      }
+    ]
+  },
+  {
+    "provider": "Google",
+    "exams": [
+      {
+        "name": "Associate Cloud Engineer",
+        "description": "For individuals who deploy, manage, and operate Google Cloud Platform implementations."
+      },
+      {
+        "name": "Professional Cloud Architect",
+        "description": "For individuals who design, develop, and manage robust, secure, scalable, highly available, and dynamic solutions on Google Cloud."
+      },
+      {
+        "name": "Professional Data Engineer",
+        "description": "For individuals who design, build, operationalize, secure, and monitor data processing systems with a particular emphasis on security and compliance; reliability and scalability; efficiency and cost-effectiveness; and data governance."
+      },
+      {
+        "name": "Professional Cloud Developer",
+        "description": "For individuals who build and deploy applications on the Google Cloud Platform."
+      },
+      {
+        "name": "Professional Cloud DevOps Engineer",
+        "description": "For individuals who implement and manage continuous delivery systems and methodologies on Google Cloud."
+      },
+      {
+        "name": "Professional Cloud Network Engineer",
+        "description": "For individuals who implement and manage network architectures in Google Cloud."
+      },
+      {
+        "name": "Professional Cloud Security Engineer",
+        "description": "For individuals who design and implement security infrastructure and processes on Google Cloud."
+      },
+      {
+        "name": "Professional Collaboration Engineer",
+        "description": "For individuals who deploy, configure, and manage Google Workspace."
+      },
+      {
+        "name": "Professional Machine Learning Engineer",
+        "description": "For individuals who design, build, and productionize ML models on Google Cloud."
+      },
+      {
+        "name": "Professional Cloud Database Engineer",
+        "description": "For individuals who design, implement, and manage database solutions on Google Cloud."
+      },
+      {
+        "name": "Professional Google Workspace Administrator",
+        "description": "For individuals who manage and administer Google Workspace environments."
+      },
+      {
+        "name": "Cloud Digital Leader",
+        "description": "Demonstrates foundational knowledge of cloud concepts and Google Cloud."
+      },
+      {
+        "name": "Associate Data Practitioner",
+        "description": "Demonstrates foundational skills in data analysis and the use of Google Cloud data tools."
+      },
+      {
+        "name": "Professional ChromeOS Administrator",
+        "description": "For individuals who manage and deploy ChromeOS devices in an enterprise environment."
+      }
+    ]
+  },
+  {
+    "provider": "OpenGroup",
+    "exams": [
+      {
+        "name": "ArchiMate® 3 Part 1 Exam",
+        "description": "Tests knowledge of the ArchiMate® 3 core language."
+      },
+      {
+        "name": "ArchiMate® 3 Part 2 Exam",
+        "description": "Tests the ability to analyze and apply the ArchiMate® 3 language."
+      },
+      {
+        "name": "Open Agile Architecture™ Practitioner Exam",
+        "description": "Tests knowledge and understanding of Open Agile Architecture concepts."
+      },
+      {
+        "name": "DPBoK™ Part 1 Exam",
+        "description": "Tests foundational knowledge of the Data Professional Body of Knowledge."
+      },
+      {
+        "name": "IT4IT™ Part 1 Exam",
+        "description": "Tests basic knowledge of the IT4IT™ Reference Architecture."
+      },
+      {
+        "name": "IT4IT™ 3 Foundation Exam",
+        "description": "Tests foundational knowledge of the IT4IT™ Standard, Version 3."
+      },
+      {
+        "name": "Open FAIR™ Part 1 Exam",
+        "description": "Tests foundational knowledge of the Open FAIR™ risk analysis standard."
+      },
+      {
+        "name": "Open FAIR™ 2 Foundation Exam",
+        "description": "Tests foundational knowledge of the Open FAIR™ Body of Knowledge."
+      },
+      {
+        "name": "TOGAF® Enterprise Architecture Part 1 Exam",
+        "description": "Tests basic knowledge and understanding of the TOGAF® Standard, 10th Edition."
+      },
+      {
+        "name": "TOGAF® Enterprise Architecture Part 2 Exam",
+        "description": "Tests the ability to apply the TOGAF® Standard, 10th Edition."
+      },
+      {
+        "name": "TOGAF® Enterprise Architecture Bridge Exam",
+        "description": "For TOGAF® 9 Certified individuals to become TOGAF® Enterprise Architecture Practitioner certified (based on 10th Edition)."
+      },
+      {
+        "name": "TOGAF® Enterprise Architecture Combined Part 1 and Part 2 Exam",
+        "description": "Tests both basic knowledge and application of the TOGAF® Standard, 10th Edition."
+      },
+      {
+        "name": "TOGAF® Business Architecture Foundation Exam",
+        "description": "Tests basic knowledge and understanding of Business Architecture and its alignment with TOGAF® Standard, 10th Edition."
+      },
+      {
+        "name": "TOGAF® 9 Part 1 Exam",
+        "description": "Tests basic knowledge and understanding of TOGAF® 9."
+      },
+      {
+        "name": "TOGAF® 9 Part 2 Exam",
+        "description": "Tests the ability to analyze and apply TOGAF® 9."
+      },
+      {
+        "name": "TOGAF® 9 Combined Part 1 and Part 2 Exam",
+        "description": "Tests both basic knowledge and application of TOGAF® 9."
+      },
+      {
+        "name": "TOGAF® Business Architecture Part 1 Exam",
+        "description": "Tests basic knowledge of TOGAF® 9 for Business Architecture."
+      }
+    ]
+  }
+]
