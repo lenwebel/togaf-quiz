@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useState, useEffect } from 'react';
-import { Card, Radio, Button, Typography, Space, Progress, Layout, Result, Collapse, Divider, InputNumber, Form } from 'antd';
+import { Card, Radio, Button, Typography, Space, Progress, Layout, Result, Collapse, Divider, InputNumber, Form, RadioChangeEvent } from 'antd';
 import { ArrowLeftOutlined, ArrowRightOutlined, HomeOutlined } from '@ant-design/icons';
 import Link from 'next/link';
 import styles from './quiz.module.css';
@@ -57,7 +57,7 @@ export default function QuizPage() {
     setQuizStarted(true);
   };
 
-  const handleOptionChange = (e: any) => {
+  const handleOptionChange = (e: RadioChangeEvent) => {
     setSelectedOption(e.target.value);
   };
 
