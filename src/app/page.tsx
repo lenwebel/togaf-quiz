@@ -1,13 +1,14 @@
 'use client';
 
 import React, { useState, useEffect } from 'react';
-import { Card, Radio, Button, Typography, Space, Progress, Layout, Result } from 'antd';
-import { ArrowLeftOutlined, ArrowRightOutlined,  HomeOutlined } from '@ant-design/icons';
+import { Card, Radio, Button, Typography, Space, Progress, Layout, Result, Collapse, Divider, InputNumber, Form } from 'antd';
+import { ArrowLeftOutlined, ArrowRightOutlined, HomeOutlined } from '@ant-design/icons';
 import Link from 'next/link';
 import styles from './quiz.module.css';
 
 const { Title, Paragraph, Text } = Typography;
 const { Header, Content, Footer } = Layout;
+const { Panel } = Collapse;
 
 interface Question {
   id: number;
@@ -15,9 +16,11 @@ interface Question {
   options: string[];
   answer: string;
   type: string;
+  userAnswer?: string;
 }
 
 export default function QuizPage() {
+  const [allQuestions, setAllQuestions] = useState<Question[]>([]);
   const [questions, setQuestions] = useState<Question[]>([]);
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [selectedOption, setSelectedOption] = useState<string | null>(null);
@@ -25,13 +28,17 @@ export default function QuizPage() {
   const [showResult, setShowResult] = useState(false);
   const [loading, setLoading] = useState(true);
   const [userAnswers, setUserAnswers] = useState<Record<number, string>>({});
+  const [incorrectAnswers, setIncorrectAnswers] = useState<Question[]>([]);
+  const [showIncorrectAnswers, setShowIncorrectAnswers] = useState(false);
+  const [numQuestionsToAnswer, setNumQuestionsToAnswer] = useState<number>(10);
+  const [quizStarted, setQuizStarted] = useState(false);
 
   useEffect(() => {
     async function fetchQuestions() {
       try {
         const response = await fetch('/questions.json');
         const data = await response.json();
-        setQuestions(data);
+        setAllQuestions(data);
         setLoading(false);
       } catch (error) {
         console.error('Error fetching questions:', error);
@@ -41,6 +48,14 @@ export default function QuizPage() {
 
     fetchQuestions();
   }, []);
+
+  const startQuiz = () => {
+    // Randomize questions and select requested number
+    const shuffled = [...allQuestions].sort(() => 0.5 - Math.random());
+    const selectedQuestions = shuffled.slice(0, numQuestionsToAnswer);
+    setQuestions(selectedQuestions);
+    setQuizStarted(true);
+  };
 
   const handleOptionChange = (e: any) => {
     setSelectedOption(e.target.value);
@@ -59,6 +74,13 @@ export default function QuizPage() {
       // Check if answer is correct
       if (selectedOption === currentQuestion.answer) {
         setScore(prevScore => prevScore + 1);
+      } else {
+        // Store incorrect answer
+        const incorrectQuestion = {
+          ...currentQuestion,
+          userAnswer: selectedOption
+        };
+        setIncorrectAnswers(prev => [...prev, incorrectQuestion]);
       }
       
       if (currentQuestionIndex < questions.length - 1) {
@@ -85,6 +107,15 @@ export default function QuizPage() {
     setScore(0);
     setShowResult(false);
     setUserAnswers({});
+    setIncorrectAnswers([]);
+    setShowIncorrectAnswers(false);
+    setQuizStarted(false);
+  };
+
+  const handleQuestionNumberChange = (value: number | null) => {
+    if (value !== null) {
+      setNumQuestionsToAnswer(value);
+    }
   };
 
   if (loading) {
@@ -95,6 +126,53 @@ export default function QuizPage() {
             <Paragraph>Loading questions...</Paragraph>
           </Card>
         </Content>
+      </Layout>
+    );
+  }
+
+  // Quiz configuration screen
+  if (!quizStarted) {
+    return (
+      <Layout className={styles.layout}>
+        <Header className={styles.header}>
+          <Title level={2} style={{ color: 'white', margin: 0 }}>TOGAF Quiz Setup</Title>
+        </Header>
+        <Content className={styles.content}>
+          <Card className={styles.card}>
+            <Title level={3}>Quiz Setup</Title>
+            <Paragraph>
+              Select how many questions you would like to answer.
+              (Maximum: {allQuestions.length})
+            </Paragraph>
+            
+            <Form layout="vertical">
+              <Form.Item label="Number of Questions">
+                <InputNumber 
+                  min={1} 
+                  max={allQuestions.length} 
+                  defaultValue={numQuestionsToAnswer}
+                  onChange={handleQuestionNumberChange}
+                  style={{ width: '100%' }}
+                />
+              </Form.Item>
+              
+              <Form.Item>
+                <Button 
+                  type="primary" 
+                  size="large" 
+                  onClick={startQuiz}
+                  disabled={numQuestionsToAnswer <= 0 || numQuestionsToAnswer > allQuestions.length}
+                  style={{ width: '100%' }}
+                >
+                  Start Quiz
+                </Button>
+              </Form.Item>
+            </Form>
+          </Card>
+        </Content>
+        <Footer className={styles.footer}>
+          TOGAF Quiz App ©{new Date().getFullYear()}
+        </Footer>
       </Layout>
     );
   }
@@ -119,6 +197,56 @@ export default function QuizPage() {
               </Link>
             ]}
           />
+          
+          {incorrectAnswers.length > 0 && (
+            <Card className={styles.card} style={{ marginTop: '20px' }}>
+              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '16px' }}>
+                <Title level={4} style={{ margin: 0 }}>
+                  Incorrect Answers ({incorrectAnswers.length})
+                </Title>
+                <Button 
+                  type="primary" 
+                  onClick={() => setShowIncorrectAnswers(!showIncorrectAnswers)}
+                >
+                  {showIncorrectAnswers ? 'Hide Details' : 'Show Details'}
+                </Button>
+              </div>
+              
+              {showIncorrectAnswers && (
+                <Collapse>
+                  {incorrectAnswers.map((question, index) => (
+                    <Panel 
+                      header={`Question ${index + 1}: ${question.question}`} 
+                      key={question.id.toString()}
+                    >
+                      <Paragraph>
+                        <Text strong>Your answer: </Text>
+                        <Text type="danger">{question.userAnswer}</Text>
+                      </Paragraph>
+                      <Paragraph>
+                        <Text strong>Correct answer: </Text>
+                        <Text type="success">{question.answer}</Text>
+                      </Paragraph>
+                      <Divider style={{ margin: '12px 0' }} />
+                      <Paragraph>
+                        <Text strong>All options:</Text>
+                        <ul>
+                          {question.options.map((option, i) => (
+                            <li key={i} style={{ 
+                              color: option === question.answer ? 'green' : 
+                                option === question.userAnswer ? 'red' : 'inherit' 
+                            }}>
+                              {option}
+                            </li>
+                          ))}
+                        </ul>
+                      </Paragraph>
+                    </Panel>
+                  ))}
+                </Collapse>
+              )}
+            </Card>
+          )}
         </Content>
         <Footer className={styles.footer}>
           TOGAF Quiz App ©{new Date().getFullYear()}

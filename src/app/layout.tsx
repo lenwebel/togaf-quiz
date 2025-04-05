@@ -1,6 +1,27 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyDdbh0AUNNSXXDfjCIhcBku5a-gCq07U2o",
+  authDomain: "togaf-quiz-a40e6.firebaseapp.com",
+  projectId: "togaf-quiz-a40e6",
+  storageBucket: "togaf-quiz-a40e6.firebasestorage.app",
+  messagingSenderId: "1076740737550",
+  appId: "1:1076740737550:web:7ba745df89c77c5b34ca5f",
+  measurementId: "G-EKDHQ7P1QZ"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+getAnalytics(app);
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
